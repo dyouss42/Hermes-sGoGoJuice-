@@ -385,7 +385,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "sc"
+  - trigger: ";sc"
     replace: "Supreme Court"
     propagate_case: true
     word: true
