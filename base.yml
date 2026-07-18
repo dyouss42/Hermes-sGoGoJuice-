@@ -1,0 +1,1959 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+
+  #Legal Studies words
+  - trigger: "AA"
+    replace: "African American"
+    word: true
+  - trigger: "itnt"
+    replace: "internet"
+    propagate_case: true
+    word: true
+  - trigger: "srch"
+    replace: "search"
+    propagate_case: true
+    word: true
+  - trigger: "srchd"
+    replace: "searchd"
+    propagate_case: true
+    word: true
+  - trigger: "srchs"
+    replace: "searches"
+    propagate_case: true
+    word: true
+  - trigger: "srchg"
+    replace: "searching"
+    propagate_case: true
+    word: true
+  - trigger: "cnty"
+    replace: "country"
+    propagate_case: true
+    word: true
+  - trigger: "cntys"
+    replace: "countries"
+    propagate_case: true
+    word: true
+  - trigger: "spna"
+    replace: "subpoena"
+    propagate_case: true
+    word: true
+  - trigger: "spnas"
+    replace: "subpoenas"
+    propagate_case: true
+    word: true
+  - trigger: "adm"
+    replace: "admissible"
+    propagate_case: true
+    word: true
+  - trigger: "inadm"
+    replace: "inadmissible"
+    propagate_case: true
+    word: true
+  - trigger: "spnad"
+    replace: "subpoenad"
+    propagate_case: true
+    word: true
+  - trigger: "dfdt"
+    replace: "defendant"
+    propagate_case: true
+    word: true
+  - trigger: "dfdts"
+    replace: "defendants"
+    propagate_case: true
+    word: true
+  - trigger: "pltf"
+    replace: "plaintiff"
+    propagate_case: true
+    word: true
+  - trigger: "pltfs"
+    replace: "plaintiffs"
+    propagate_case: true
+    word: true
+  
+  - trigger: "cgrs"
+    replace: "Congress"
+    propagate_case: true
+    word: true
+  - trigger: "s230"
+    replace: "Section 230"
+    word: true
+  - trigger: "addr"
+    replace: "address"
+    propagate_case: true
+    word: true
+  - trigger: "addrd"
+    replace: "addressed"
+    propagate_case: true
+    word: true
+  - trigger: "addrg"
+    replace: "addressing"
+    propagate_case: true
+    word: true
+  - trigger: "addrs"
+    replace: "addresses"
+    propagate_case: true
+    word: true
+  - trigger: "vuln"
+    replace: "vulnerable"
+    propagate_case: true
+    word: true
+  - trigger: "vulny"
+    replace: "vulnerability"
+    propagate_case: true
+    word: true
+  - trigger: "vulnys"
+    replace: "vulnerabilities"
+    propagate_case: true
+    word: true
+  - trigger: "prv"
+    replace: "private"
+    propagate_case: true
+    word: true
+  - trigger: "prvy"
+    replace: "privacy"
+    propagate_case: true
+    word: true
+  - trigger: "pvlg"
+    replace: "privilege"
+    propagate_case: true
+    word: true
+  - trigger: "pvlgs"
+    replace: "privileges"
+    propagate_case: true
+    word: true
+  - trigger: "pvlgd"
+    replace: "privileged"
+    propagate_case: true
+    word: true
+  - trigger: "sig"
+    replace: "significant"
+    propagate_case: true
+    word: true
+  - trigger: "sigc"
+    replace: "significance"
+    propagate_case: true
+    word: true
+  - trigger: "sigy"
+    replace: "significantly"
+    propagate_case: true
+    word: true
+  - trigger: "insig"
+    replace: "insignificant"
+    propagate_case: true
+    word: true
+  - trigger: "insigc"
+    replace: "insignificance"
+    propagate_case: true
+    word: true
+  - trigger: "insigy"
+    replace: "insignificantly"
+    propagate_case: true
+    word: true
+  - trigger: "req"
+    replace: "require"
+    propagate_case: true
+    word: true 
+  - trigger: "reqg"
+    replace: "requiring"
+    propagate_case: true
+    word: true 
+  - trigger: "reqs"
+    replace: "requires"
+    propagate_case: true
+    word: true 
+  - trigger: "reqd"
+    replace: "required"
+    propagate_case: true
+    word: true 
+  - trigger: "reqt"
+    replace: "requirement"
+    propagate_case: true
+    word: true
+  - trigger: "reqts"
+    replace: "requirements"
+    propagate_case: true
+    word: true
+  - trigger: "misds"
+    replace: "misdemeanors"
+    propagate_case: true
+    word: true
+
+  - trigger: "fel"
+    replace: "felon"
+    propagate_case: true
+    word: true
+  - trigger: "fels"
+    replace: "felons"
+    propagate_case: true
+    word: true
+  - trigger: "fely"
+    replace: "felony"
+    propagate_case: true
+    word: true
+  
+  - trigger: "comp"
+    replace: "computer"
+    propagate_case: true
+    word: true
+  
+  - trigger: "comps"
+    replace: "computers"
+    propagate_case: true
+    word: true
+
+
+  - trigger: "inc"
+    replace: "increase"
+    propagate_case: true
+    word: true
+  
+  - trigger: "incs"
+    replace: "increases"
+    propagate_case: true
+    word: true
+
+  - trigger: "incd"
+    replace: "increased"
+    propagate_case: true
+    word: true
+  
+  - trigger: "incg"
+    replace: "increasing"
+    propagate_case: true
+    word: true
+  
+  - trigger: "deci"
+    replace: "decision"
+    propagate_case: true
+    word: true
+  - trigger: "decis"
+    replace: "decisions"
+    propagate_case: true
+    word: true
+
+
+  - trigger: "eval"
+    replace: "evaluate"
+    propagate_case: true
+    word: true
+  - trigger: "evald"
+    replace: "evaluated"
+    propagate_case: true
+    word: true
+  - trigger: "evals"
+    replace: "evaluates"
+    propagate_case: true
+    word: true
+  - trigger: "evalg"
+    replace: "evaluating"
+    propagate_case: true
+    word: true
+  - trigger: "evaln"
+    replace: "evaluation"
+    propagate_case: true
+    word: true
+  - trigger: "evalns"
+    replace: "evaluations"
+    propagate_case: true
+    word: true
+
+
+  - trigger: "opty"
+    replace: "opportunity"
+    propagate_case: true
+    word: true
+  - trigger: "optys"
+    replace: "opportunities"
+    propagate_case: true
+    word: true
+
+  - trigger: "dec"
+    replace: "decrease"
+    propagate_case: true
+    word: true
+  - trigger: "decs"
+    replace: "decreases"
+    propagate_case: true
+    word: true
+  - trigger: "decd"
+    replace: "decreased"
+    propagate_case: true
+    word: true
+  - trigger: "decg"
+    replace: "decreasing"
+    propagate_case: true
+    word: true
+
+  - trigger: "pc"
+    replace: "probable cause"
+    propagate_case: true
+    word: true
+  - trigger: "prb"
+    replace: "problem"
+    propagate_case: true
+    word: true
+  - trigger: "prbs"
+    replace: "problems"
+    propagate_case: true
+    word: true
+  - trigger: ";dod"
+    replace: "Department of Defense"
+    propagate_case: true
+    word: true
+  - trigger: ";info"
+    replace: "information"
+    propagate_case: true
+    word: true
+  - trigger: ";infol"
+    replace: "informational"
+    propagate_case: true
+    word: true
+  - trigger: ";dow"
+    replace: "Department of War"
+    propagate_case: true
+    word: true
+  - trigger: "ntk"
+    replace: "network"
+    propagate_case: true
+    word: true
+  - trigger: "ntks"
+    replace: "networks"
+    propagate_case: true
+    word: true
+  - trigger: "ntkg"
+    replace: "networking"
+    propagate_case: true
+    word: true
+  - trigger: "ntkd"
+    replace: "networked"
+    propagate_case: true
+    word: true
+  - trigger: "acs"
+    replace: "access"
+    propagate_case: true
+    word: true
+  - trigger: "acss"
+    replace: "accesses"
+    propagate_case: true
+    word: true
+  - trigger: "acsg"
+    replace: "accessesing"
+    propagate_case: true
+    word: true
+  - trigger: "acsd"
+    replace: "accessesed"
+    propagate_case: true
+    word: true
+  - trigger: "acse"
+    replace: "accessible"
+    propagate_case: true
+    word: true
+  - trigger: "auth"
+    replace: "authentic"
+    propagate_case: true
+    word: true
+  - trigger: "authn"
+    replace: "authentication"
+    propagate_case: true
+    word: true
+  - trigger: "cjs"
+    replace: "criminal justice system"
+    propagate_case: true
+    word: true
+  - trigger: "cj"
+    replace: "criminal justice"
+    propagate_case: true
+    word: true
+
+  - trigger: "rs"
+    replace: "reasonable suspicion"
+    propagate_case: true
+    word: true
+
+  - trigger: "sc"
+    replace: "Supreme Court"
+    propagate_case: true
+    word: true
+  
+  - trigger: "prob"
+    replace: "probable"
+    propagate_case: true
+    word: true
+
+  - trigger: "cau"
+    replace: "cause"
+    propagate_case: true
+    word: true
+
+
+
+  - trigger: "rea"
+    replace: "reason"
+    propagate_case: true
+    word: true
+  - trigger: "sus"
+    replace: "suspicious"
+    propagate_case: true
+    word: true
+  - trigger: "susn"
+    replace: "suspicion"
+    propagate_case: true
+    word: true
+
+  - trigger: "amendm"
+    replace: "amendment"
+    propagate_case: true
+    word: true
+
+  - trigger: "govt"
+    replace: "government"
+    propagate_case: true
+    word: true
+  - trigger: "govts"
+    replace: "governments"
+    propagate_case: true
+    word: true
+
+  - trigger: "unr"
+    replace: "unreasonable"
+    propagate_case: true
+    word: true
+  
+  - trigger: "4a"
+    replace: "Fourth Amendment"
+    propagate_case: true
+    word: true
+  - trigger: "5a"
+    replace: "Fifth Amendment"
+    propagate_case: true
+    word: true
+  - trigger: "1a"
+    replace: "First Amendment"
+    propagate_case: true
+    word: true
+  - trigger: "14a"
+    replace: "Fourteenth Amendment"
+    propagate_case: true
+    word: true
+
+  - trigger: "juris"
+    replace: "jurisdiction"
+    propagate_case: true
+    word: true
+
+  - trigger: "fed"
+    replace: "federal"
+    propagate_case: true
+    word: true
+  
+  - trigger: "uni"
+    replace: "university"
+    propagate_case: true
+    word: true
+  
+  - trigger: "unis"
+    replace: "universities"
+    propagate_case: true
+    word: true
+ 
+  - trigger: "impo"
+    replace: "important"
+    propagate_case: true
+    word: true
+
+  - trigger: "impoc"
+    replace: "importance"
+    propagate_case: true
+    word: true
+  - trigger: "rvsm"
+    replace: "recidivism"
+    propagate_case: true
+    word: true
+
+  - trigger: "prec"
+    replace: "precedent"
+    propagate_case: true
+    word: true
+
+  - trigger: "chal"
+    replace: "challenge"
+    propagate_case: true
+    word: true
+  - trigger: "chals"
+    replace: "challenges"
+    propagate_case: true
+    word: true
+  - trigger: "chald"
+    replace: "challenged"
+    propagate_case: true
+    word: true
+  - trigger: "chalg"
+    replace: "challenging"
+    propagate_case: true
+    word: true
+    
+    
+  - trigger: "cmty"
+    replace: "community"
+    propagate_case: true
+    word: true
+
+  - trigger: "cmtys"
+    replace: "communities"
+    propagate_case: true
+    word: true
+
+  - trigger: "agrsn"
+    replace: "aggression"
+    propagate_case: true
+    word: true
+  - trigger: "agrsv"
+    replace: "aggressive"
+    propagate_case: true
+    word: true
+  - trigger: "agrsvns"
+    replace: "aggressivness"
+    propagate_case: true
+    word: true
+
+
+  - trigger: ";ex"
+    replace: "example"
+    propagate_case: true
+    word: true
+  - trigger: ";exs"
+    replace: "examples"
+    propagate_case: true
+    word: true
+  
+
+
+  - trigger: "seiz"
+    replace: "seizure"
+    propagate_case: true
+    word: true
+  - trigger: "seizs"
+    replace: "seizures"
+    propagate_case: true
+    word: true
+  - trigger: "gnl"
+    replace: "general"
+    propagate_case: true
+    word: true
+  - trigger: "gnlz"
+    replace: "generalize"
+    propagate_case: true
+    word: true
+  - trigger: "gnlzd"
+    replace: "generalized"
+    propagate_case: true
+    word: true
+  - trigger: "gnlzg"
+    replace: "generalizing"
+    propagate_case: true
+    word: true
+
+ 
+  - trigger: "reop"
+    replace: "reasonable expectation of privacy"
+    propagate_case: true
+    word: true
+
+
+  
+
+  - trigger: "evid"
+    replace: "evidence"
+    propagate_case: true
+    word: true
+  - trigger: "evidd"
+    replace: "evidenced"
+    propagate_case: true
+    word: true
+  
+  - trigger: "Wi"
+    replace: "Wisconsin"
+    propagate_case: true
+    word: true
+
+  - trigger: "anal"
+    replace: "analysis"
+    propagate_case: true
+    word: true
+  - trigger: "frqy"
+    replace: "frequency"
+    propagate_case: true
+    word: true
+  - trigger: "frqt"
+    replace: "frequent"
+    propagate_case: true
+    word: true
+  - trigger: "ano"
+    replace: "another"
+    propagate_case: true
+    word: true
+
+  - trigger: "crc"
+    replace: "circuit"
+    propagate_case: true
+    word: true
+  
+  - trigger: "ct"
+    replace: "court"
+    propagate_case: true
+    word: true
+  - trigger: "cts"
+    replace: "courts"
+    propagate_case: true
+    word: true
+
+  - trigger: "cm"
+    replace: "crime"
+    propagate_case: true
+    word: true
+  - trigger: "cms"
+    replace: "crimes"
+    propagate_case: true
+    word: true
+  - trigger: "cml"
+    replace: "criminal"
+    propagate_case: true
+    word: true
+  - trigger: "cmls"
+    replace: "criminals"
+    propagate_case: true
+    word: true
+  - trigger: "cmlz"
+    replace: "criminalize"
+    propagate_case: true
+    word: true
+  - trigger: "cmlzs"
+    replace: "criminalizes"
+    propagate_case: true
+    word: true
+  - trigger: "cmlzd"
+    replace: "criminalized"
+    propagate_case: true
+    word: true
+  - trigger: "cmlzg"
+    replace: "criminalizing"
+    propagate_case: true
+    word: true
+  - trigger: "intg"
+    replace: "interesting"
+    propagate_case: true
+    word: true
+
+  
+  - trigger: "resp"
+    replace: "responsible"
+    propagate_case: true
+    word: true
+
+  - trigger: "respy"
+    replace: "responsibility"
+    propagate_case: true
+    word: true
+
+  - trigger: "respys"
+    replace: "responsibilities"
+    propagate_case: true
+    word: true
+    
+  - trigger: "esp"
+    replace: "especially"
+    propagate_case: true
+    word: true
+
+  - trigger: "consq"
+    replace: "consequence"
+    propagate_case: true
+    word: true
+
+  - trigger: "consqs"
+    replace: "consequences"
+    propagate_case: true
+    word: true
+
+  - trigger: "agric"
+    replace: "agriculture"
+    propagate_case: true
+    word: true
+  - trigger: "clt"
+    replace: "culture"
+    propagate_case: true
+    word: true
+  - trigger: "clts"
+    replace: "cultures"
+    propagate_case: true
+    word: true
+  - trigger: "cltl"
+    replace: "cultural"
+    propagate_case: true
+    word: true
+
+  - trigger: "lbl"
+    replace: "liable"
+    propagate_case: true
+    word: true
+  - trigger: "lblty"
+    replace: "liability"
+    propagate_case: true
+    word: true
+  - trigger: "wrr"
+    replace: "warrant"
+    propagate_case: true
+    word: true
+  - trigger: "wrrs"
+    replace: "warrants"
+    propagate_case: true
+    word: true
+  - trigger: "wchrrd"
+    replace: "warranted"
+    propagate_case: true
+    word: true
+
+  - trigger: "rec"
+    replace: "recommendation"
+    propagate_case: true
+    word: true
+  - trigger: "recs"
+    replace: "recommendations"
+    propagate_case: true
+    word: true
+  - trigger: "recd"
+    replace: "recommend"
+    propagate_case: true
+    word: true
+  - trigger: "recds"
+    replace: "recommends"
+    propagate_case: true
+    word: true
+  - trigger: "recdg"
+    replace: "recommending"
+    propagate_case: true
+    word: true
+  - trigger: "recdd"
+    replace: "recommended"
+    propagate_case: true
+    word: true
+  - trigger: "dng"
+    replace: "danger"
+    propagate_case: true
+    word: true
+  - trigger: "dngus"
+    replace: "dangerous"
+    propagate_case: true
+    word: true
+  - trigger: "dngs"
+    replace: "dangers"
+    propagate_case: true
+    word: true
+  - trigger: ";sys"
+    replace: "system"
+    propagate_case: true
+    word: true
+  - trigger: ";syss"
+    replace: "systems"
+    propagate_case: true
+    word: true
+  - trigger: ";sysz"
+    replace: "systemize"
+    propagate_case: true
+    word: true
+  - trigger: "trad"
+    replace: "tradition"
+    propagate_case: true
+    word: true
+  - trigger: "trads"
+    replace: "traditions"
+    propagate_case: true
+    word: true
+  - trigger: "tradl"
+    replace: "traditional"
+    propagate_case: true
+    word: true
+  - trigger: "trady"
+    replace: "traditionally"
+    propagate_case: true
+    word: true
+  - trigger: "tp"
+    replace: "third party"
+    propagate_case: true
+    word: true
+  - trigger: "tps"
+    replace: "third parties"
+    propagate_case: true
+    word: true
+  - trigger: "tpd"
+    replace: "third party doctrine"
+    propagate_case: true
+    word: true
+  - trigger: "fisa"
+    replace: "FISA"
+    propagate_case: true
+    word: true
+  - trigger: "US"
+    replace: "U.S."
+    word: true
+  - trigger: "fgn"
+    replace: "foreign"
+    propagate_case: true
+    word: true
+  - trigger: "enf"
+    replace: "enforce"
+    propagate_case: true
+    word: true
+  - trigger: "enfs"
+    replace: "enforces"
+    propagate_case: true
+    word: true
+  - trigger: "enfg"
+    replace: "enforcing"
+    propagate_case: true
+    word: true
+  - trigger: "enfd"
+    replace: "enforced"
+    propagate_case: true
+    word: true
+  - trigger: "enft"
+    replace: "enforcement"
+    propagate_case: true
+    word: true
+  - trigger: "enfts"
+    replace: "enforcements"
+    propagate_case: true
+    word: true
+  - trigger: "le"
+    replace: "law enforcement"
+    propagate_case: true
+    word: true
+  
+
+  - trigger: "coop"
+    replace: "cooperate"
+    propagate_case: true
+    word: true
+  - trigger: "coops"
+    replace: "cooperates"
+    propagate_case: true
+    word: true
+  - trigger: "coopg"
+    replace: "cooperating"
+    propagate_case: true
+    word: true
+  - trigger: "coopd"
+    replace: "cooperated"
+    propagate_case: true
+    word: true
+  - trigger: "coopn"
+    replace: "cooperation"
+    propagate_case: true
+    word: true
+  
+#normal words
+  - trigger: "idk"
+    replace: "I don't know"
+    propagate_case: true
+    word: true
+  - trigger: "bfr"
+    replace: "before"
+    propagate_case: true
+    word: true
+  - trigger: "lv"
+    replace: "love"
+    propagate_case: true
+    word: true
+  - trigger: "lvd"
+    replace: "loved"
+    propagate_case: true
+    word: true
+  - trigger: "lvg"
+    replace: "loving"
+    propagate_case: true
+    word: true
+  - trigger: "lvs"
+    replace: "loves"
+    propagate_case: true
+    word: true
+
+  - trigger: "bc"
+    replace: "because"
+    propagate_case: true
+    word: true
+
+  - trigger: "indi"
+    replace: "individual"
+    propagate_case: true
+    word: true
+
+  - trigger: "indis"
+    replace: "individuals"
+    propagate_case: true
+    word: true
+
+  - trigger: "dift"
+    replace: "different"
+    propagate_case: true
+    word: true
+  - trigger: "difty"
+    replace: "differently"
+    propagate_case: true
+    word: true
+
+  - trigger: "dife"
+    replace: "difference"
+    propagate_case: true
+    word: true
+
+  - trigger: "difes"
+    replace: "differences"
+    propagate_case: true
+    word: true
+  - trigger: "blv"
+    replace: "believe"
+    propagate_case: true
+    word: true
+  - trigger: "blvg"
+    replace: "believing"
+    propagate_case: true
+    word: true
+  - trigger: "blvs"
+    replace: "believes"
+    propagate_case: true
+    word: true
+  - trigger: "blvd"
+    replace: "believed"
+    propagate_case: true
+    word: true
+  - trigger: "blf"
+    replace: "belief"
+    propagate_case: true
+    word: true
+  - trigger: "blfs"
+    replace: "beliefs"
+    propagate_case: true
+    word: true
+
+  - trigger: "beh" 
+    replace: "behavior"
+    propagate_case: true
+    word: true
+  - trigger: "behs" 
+    replace: "behaviors"
+    propagate_case: true
+    word: true
+  - trigger: "behl" 
+    replace: "behavioral"
+    propagate_case: true
+    word: true
+  - trigger: "behg" 
+    replace: "behaving"
+    propagate_case: true
+    word: true
+  - trigger: "behd" 
+    replace: "behaved"
+    propagate_case: true
+    word: true
+
+  - trigger: ";vio" 
+    replace: "violate"
+    propagate_case: true
+    
+
+ 
+  
+  - trigger: "mja"
+    replace: "marijuana"
+    propagate_case: true
+    word: true
+
+  
+  - trigger: "p+"
+    replace: "positive"
+    propagate_case: true
+    word: true
+  - trigger: "p+s"
+    replace: "positives"
+    propagate_case: true
+    word: true
+
+  - trigger: "n-"
+    replace: "negative"
+    propagate_case: true
+    word: true
+  - trigger: "n-s"
+    replace: "negatives"
+    propagate_case: true
+    word: true
+
+
+  - trigger: "func"
+    replace: "function"
+    propagate_case: true
+    word: true
+  - trigger: "funcs"
+    replace: "functions"
+    propagate_case: true
+    word: true
+  - trigger: "funcl"
+    replace: "functional"
+    propagate_case: true
+    word: true
+  - trigger: "funcg"
+    replace: "functioning"
+    propagate_case: true
+    word: true
+  - trigger: "funcly"
+    replace: "functionally"
+    propagate_case: true
+    word: true
+
+  - trigger: "doc"
+    replace: "document"
+    propagate_case: true
+    word: true
+
+  - trigger: "docs"
+    replace: "documents"
+    propagate_case: true
+    word: true
+  - trigger: "docn"
+    replace: "documentation"
+    propagate_case: true
+    word: true
+  - trigger: "docg"
+    replace: "documenting"
+    propagate_case: true
+    word: true
+
+    
+  - trigger: "suff"
+    replace: "sufficient"
+    propagate_case: true
+    word: true
+
+  - trigger: ";arg"
+    replace: "argument"
+    propagate_case: true
+
+  - trigger: ";args"
+    replace: "arguments"
+    propagate_case: true
+
+  - trigger: ";argv"
+    replace: "argumentative"
+    propagate_case: true
+    word: true
+  - trigger: ";var"
+    replace: "variable"
+    propagate_case: true
+    word: true
+  - trigger: ";vars"
+    replace: "variables"
+    propagate_case: true
+    word: true
+    
+
+  - trigger: "stg"
+    replace: "something"
+    propagate_case: true
+    word: true
+
+ 
+
+  - trigger: "atg"
+    replace: "anything"
+    propagate_case: true
+    word: true
+
+  - trigger: "ntg"
+    replace: "nothing"
+    propagate_case: true
+    word: true
+  - trigger: "etg"
+    replace: "everything"
+    propagate_case: true
+    word: true
+
+  - trigger: "tg"
+    replace: "thing"
+    propagate_case: true
+    word: true
+  
+  - trigger: "tgs"
+    replace: "things"
+    propagate_case: true
+    word: true
+  - trigger: "pjds"
+    replace: "prejudices"
+    propagate_case: true
+    word: true
+  - trigger: "pjd"
+    replace: "prejudice"
+    propagate_case: true
+    word: true
+  - trigger: "atd"
+    replace: "attitude"
+    propagate_case: true
+    word: true
+  - trigger: "atds"
+    replace: "attitudes"
+    propagate_case: true
+    word: true
+
+  - trigger: "mech"
+    replace: "mechanism"
+    propagate_case: true
+    word: true
+
+  - trigger: "mechs"
+    replace: "mechanisms"
+    propagate_case: true
+    word: true
+  
+  - trigger: "xp"
+    replace: "experience"
+    propagate_case: true
+    word: true
+  - trigger: "xpd"
+    replace: "experienced"
+    propagate_case: true
+    word: true
+  - trigger: "xps"
+    replace: "experiences"
+    propagate_case: true
+    word: true
+  - trigger: "xpg"
+    replace: "experiencing"
+    propagate_case: true
+    word: true
+  - trigger: "alg"
+    replace: "algorithm"
+    propagate_case: true
+    word: true
+  
+  - trigger: "algs"
+    replace: "algorithms"
+    propagate_case: true
+    word: true
+
+  - trigger: "lit"
+    replace: "literature"
+    propagate_case: true
+    word: true
+  
+  - trigger: "reln"
+    replace: "relation"
+    propagate_case: true
+    word: true
+  
+  - trigger: "persp"
+    replace: "perspective"
+    propagate_case: true
+    word: true
+
+  - trigger: "prac"
+    replace: "practice"
+    propagate_case: true
+    word: true
+  - trigger: "rc"
+    replace: "race"
+    propagate_case: true
+    word: true
+  - trigger: "rcm"
+    replace: "racism"
+    propagate_case: true
+    word: true
+  - trigger: "rcl"
+    replace: "racial"
+    propagate_case: true
+    word: true
+  - trigger: "rcly"
+    replace: "racially"
+    propagate_case: true
+    word: true
+  - trigger: "prsn"
+    replace: "prison"
+    propagate_case: true
+    word: true
+  - trigger: "prsns"
+    replace: "prisons"
+    propagate_case: true
+    word: true
+  - trigger: "prsnr"
+    replace: "prisoner"
+    propagate_case: true
+    word: true
+  - trigger: "prsnrs"
+    replace: "prisoners"
+    propagate_case: true
+    word: true
+  - trigger: "tho"
+    replace: "though"
+    propagate_case: true
+    word: true
+
+  - trigger: "rly"
+    replace: "really"
+    propagate_case: true
+    word: true
+
+  - trigger: "w/"
+    replace: "with"
+    propagate_case: true
+    word: true
+
+  - trigger: "w/o"
+    replace: "without"
+    propagate_case: true
+    word: true
+
+  - trigger: ";num"
+    replace: "number"
+    propagate_case: true
+    word: true
+  - trigger: ";nums"
+    replace: "numbers"
+    propagate_case: true
+    word: true
+  - trigger: ";ad"
+    replace: "advertisment"
+    propagate_case: true
+    word: true
+  - trigger: ";ads"
+    replace: "advertisments"
+    propagate_case: true
+    word: true
+  - trigger: ";AD"
+    replace: "Active Directory"
+    word: true
+  - trigger: ";ADs"
+    replace: "Active Directories"
+    word: true
+  - trigger: "thru"
+    replace: "through"
+    propagate_case: true
+    word: true 
+
+
+  - trigger: "abt"
+    replace: "about"
+    propagate_case: true
+    word: true
+  - trigger: "upd"
+    replace: "update"
+    propagate_case: true
+    word: true
+  - trigger: "upds"
+    replace: "updates"
+    propagate_case: true
+    word: true
+  - trigger: "updg"
+    replace: "updating"
+    propagate_case: true
+    word: true
+  - trigger: "updd"
+    replace: "updated"
+    propagate_case: true
+    word: true
+  
+  - trigger: "upg"
+    replace: "upgrade"
+    propagate_case: true
+    word: true
+  - trigger: "upgs"
+    replace: "upgrades"
+    propagate_case: true
+    word: true
+  - trigger: "upgg"
+    replace: "upgrading"
+    propagate_case: true
+    word: true
+  - trigger: "upgd"
+    replace: "upgraded"
+    propagate_case: true
+    word: true
+
+  - trigger: "envi"
+    replace: "environment"
+    propagate_case: true
+    word: true
+  - trigger: "envis"
+    replace: "environments"
+    propagate_case: true
+    word: true
+  - trigger: "ppl"
+    replace: "people"
+    propagate_case: true
+    word: true
+  
+  
+  - trigger: "ppls"
+    replace: "peoples"
+    propagate_case: true
+    word: true
+  - trigger: "ppln"
+    replace: "population"
+    propagate_case: true
+    word: true
+  - trigger: "pplns"
+    replace: "populations"
+    propagate_case: true
+    word: true
+  
+  - trigger: "concn"
+    replace: "conclusion"
+    propagate_case: true
+    word: true
+  - trigger: "concns"
+    replace: "conclusions"
+    propagate_case: true
+    word: true
+  - trigger: "def"
+    replace: "define"
+    propagate_case: true
+    word: true
+  - trigger: "defg"
+    replace: "defining"
+    propagate_case: true
+    word: true
+  - trigger: "defs"
+    replace: "defines"
+    propagate_case: true
+    word: true
+  - trigger: "defd"
+    replace: "defined"
+    propagate_case: true
+    word: true
+  - trigger: "defn"
+    replace: "definition"
+    propagate_case: true
+    word: true
+  - trigger: "defns"
+    replace: "definitions"
+    propagate_case: true
+    word: true
+  - trigger: "econ"
+    replace: "economic"
+    propagate_case: true
+    word: true
+  - trigger: "ecny"
+    replace: "economy"
+    propagate_case: true
+    word: true
+  - trigger: "scl"
+    replace: "social"
+    propagate_case: true
+    word: true
+  - trigger: "scly"
+    replace: "socially"
+    propagate_case: true
+    word: true
+  - trigger: "sty"
+    replace: "society"
+    propagate_case: true
+    word: true
+  - trigger: "stys"
+    replace: "societies"
+    propagate_case: true
+    word: true
+  - trigger: "socec"
+    replace: "socioeconomic"
+    propagate_case: true
+    word: true
+  - trigger: "obj"
+    replace: "object"
+    propagate_case: true
+    word: true
+  - trigger: "objs"
+    replace: "objects"
+    propagate_case: true
+    word: true
+  - trigger: "objn"
+    replace: "objection"
+    propagate_case: true
+    word: true
+  - trigger: "objns"
+    replace: "objections"
+    propagate_case: true
+    word: true
+  - trigger: "objvs"
+    replace: "objectives"
+    propagate_case: true
+    word: true
+  - trigger: "objv"
+    replace: "objective"
+    propagate_case: true
+    word: true
+  - trigger: ";alt"
+    replace: "alternate"
+    propagate_case: true
+    word: true
+  - trigger: ";altg"
+    replace: "alternating"
+    propagate_case: true
+    word: true
+  - trigger: ";altv"
+    replace: "alternative"
+    propagate_case: true
+    word: true
+  - trigger: ";tech"
+    replace: "technology"
+    propagate_case: true
+    word: true
+  - trigger: ";techs"
+    replace: "technologies"
+    propagate_case: true
+    word: true
+  - trigger: "mem"
+    replace: "memory"
+    propagate_case: true
+    word: true
+  - trigger: "mems"
+    replace: "memories"
+    propagate_case: true
+    word: true
+  - trigger: "sym"
+    replace: "system"
+    propagate_case: true
+    word: true
+  - trigger: "syms"
+    replace: "systems"
+    propagate_case: true
+    word: true
+  - trigger: "syme"
+    replace: "systemize"
+    propagate_case: true
+    word: true
+  - trigger: "symed"
+    replace: "systemized"
+    propagate_case: true
+    word: true
+  - trigger: "symeg"
+    replace: "systemizing"
+    propagate_case: true
+    word: true
+  - trigger: "sbj"
+    replace: "subject"
+    propagate_case: true
+    word: true
+  - trigger: "sbjd"
+    replace: "subjected"
+    propagate_case: true
+    word: true
+  - trigger: "sbjs"
+    replace: "subjects"
+    propagate_case: true
+    word: true
+  - trigger: "sbjv"
+    replace: "subjective"
+    propagate_case: true
+    word: true
+  - trigger: "rsrch"
+    replace: "research"
+    propagate_case: true
+  - trigger: "scty"
+    replace: "security"
+    propagate_case: true
+    word: true
+     
+  - trigger: "svlc"
+    replace: "surveillance"
+    propagate_case: true
+    word: true
+  - trigger: "svl"
+    replace: "surveil"
+    propagate_case: true
+    word: true
+  - trigger: "svls"
+    replace: "surveils"
+    propagate_case: true
+    word: true
+  - trigger: "svld"
+    replace: "surveilled"
+    propagate_case: true
+    word: true
+  - trigger: "svlg"
+    replace: "surveiling"
+    propagate_case: true
+    word: true
+  - trigger: "trsm"
+    replace: "terrorism"
+    propagate_case: true
+    word: true
+  - trigger: "ctrsm"
+    replace: "counterterrorism"
+    propagate_case: true
+    word: true
+  - trigger: ";ml"
+    replace: "machine learning"
+    propagate_case: true
+    word: true
+  - trigger: "intl"
+    replace: "intelligent"
+    propagate_case: true
+    word: true
+  - trigger: "intll"
+    replace: "intellectual"
+    propagate_case: true
+    word: true
+  - trigger: "intlc"
+    replace: "intelligence"
+    propagate_case: true
+    word: true
+  - trigger: "cintl"
+    replace: "counterintelligence"
+    propagate_case: true
+    word: true
+  - trigger: ";os"
+    replace: "operating system"
+    propagate_case: true
+    word: true
+  - trigger: ";oss"
+    replace: "operating systems"
+    propagate_case: true
+    word: true
+  - trigger: "sns"
+    replace: "search and seizure"
+    propagate_case: true
+    word: true
+  - trigger: ";rce"
+    replace: "remote code execution"
+    propagate_case: true
+    word: true
+  - trigger: ";rces"
+    replace: "remote code executions"
+    propagate_case: true
+    word: true
+
+
+  - trigger: "veh"
+    replace: "vehicle"
+    propagate_case: true
+    word: true
+  - trigger: "vehs"
+    replace: "vehicles"
+    propagate_case: true
+    word: true
+  - trigger: "copr"
+    replace: "copyright"
+    propagate_case: true
+    word: true
+  - trigger: "coprs"
+    replace: "copyrights"
+    propagate_case: true
+    word: true
+  - trigger: "copri"
+    replace: "copyright infringement"
+    propagate_case: true
+    word: true
+
+  - trigger: "coprd"
+    replace: "copyrighted"
+    propagate_case: true
+    word: true
+  
+  
+  - trigger: "ifrngt"
+    replace: "infringement"
+    propagate_case: true
+    word: true
+  
+  - trigger: "ifrng"
+    replace: "infringe"
+    propagate_case: true
+    word: true
+  
+  - trigger: "rel"
+    replace: "relate"
+    propagate_case: true
+    word: true
+  - trigger: "rels"
+    replace: "relates"
+    propagate_case: true
+    word: true
+  - trigger: "reld"
+    replace: "related"
+    propagate_case: true
+    word: true
+  - trigger: "relg"
+    replace: "relating"
+    propagate_case: true
+    word: true
+  - trigger: "relp"
+    replace: "relationship"
+    propagate_case: true
+    word: true
+  - trigger: "relps"
+    replace: "relationships"
+    propagate_case: true
+    word: true
+  - trigger: "wld"
+    replace: "would"
+    propagate_case: true
+    word: true
+  - trigger: "cld"
+    replace: "could"
+    propagate_case: true
+    word: true
+  - trigger: "sld"
+    replace: "should"
+    propagate_case: true
+    word: true
+  - trigger: "sht"
+    replace: "shoot"
+    propagate_case: true
+    word: true
+  - trigger: "shtg"
+    replace: "shooting"
+    propagate_case: true
+    word: true
+  - trigger: "prg"
+    replace: "program"
+    propagate_case: true
+    word: true
+  - trigger: "prgs"
+    replace: "programs"
+    propagate_case: true
+    word: true
+  - trigger: "prgg"
+    replace: "programming"
+    propagate_case: true
+    word: true
+  - trigger: "prgd"
+    replace: "programed"
+    propagate_case: true
+    word: true
+  - trigger: "tmr"
+    replace: "tomorrow"
+    propagate_case: true
+    word: true
+  - trigger: "prc"
+    replace: "process"
+    propagate_case: true
+    word: true
+  - trigger: "prcs"
+    replace: "processes"
+    propagate_case: true
+    word: true
+  - trigger: "prcr"
+    replace: "processor"
+    propagate_case: true
+    word: true
+  - trigger: "prcrs"
+    replace: "processors"
+    propagate_case: true
+    word: true
+  - trigger: "prcg"
+    replace: "processing"
+    propagate_case: true
+    word: true
+  - trigger: "prcd"
+    replace: "processed"
+    propagate_case: true
+    word: true
+  - trigger: "dp"
+    replace: "due process"
+    propagate_case: true
+    word: true
+  - trigger: "hre"
+    replace: "hearsay"
+    propagate_case: true
+    word: true
+  - trigger: "cgtv"
+    replace: "cognitive"
+    propagate_case: true
+    word: true
+  - trigger: "comm"
+    replace: "communicate"
+    propagate_case: true
+    word: true
+  - trigger: "comms"
+    replace: "communicates"
+    propagate_case: true
+    word: true
+  - trigger: "commd"
+    replace: "communicated"
+    propagate_case: true
+    word: true
+  - trigger: "commg"
+    replace: "communicating"
+    propagate_case: true
+    word: true
+  - trigger: "commn"
+    replace: "communication"
+    propagate_case: true
+    word: true
+  - trigger: "commns"
+    replace: "communications"
+    propagate_case: true
+    word: true
+  - trigger: "cxt"
+    replace: "context"
+    propagate_case: true
+    word: true
+  - trigger: "cxts"
+    replace: "contexts"
+    propagate_case: true
+    word: true
+  - trigger: "tgt"
+    replace: "together"
+    propagate_case: true
+    word: true
+  - trigger: "qty"
+    replace: "quantity"
+    propagate_case: true
+    word: true
+  - trigger: "qtys"
+    replace: "quantities"
+    propagate_case: true
+    word: true
+  - trigger: "bldg"
+    replace: "building"
+    propagate_case: true
+    word: true
+  - trigger: "bldgs"
+    replace: "buildings"
+    propagate_case: true
+    word: true
+  - trigger: "bld"
+    replace: "build"
+    propagate_case: true
+    word: true
+  - trigger: "blds"
+    replace: "builds"
+    propagate_case: true
+    word: true
+  - trigger: "grp"
+    replace: "group"
+    propagate_case: true
+    word: true
+  - trigger: "grps"
+    replace: "groups"
+    propagate_case: true
+    word: true
+  - trigger: "grpd"
+    replace: "grouped"
+    propagate_case: true
+    word: true
+  - trigger: "grpg"
+    replace: "grouping"
+    propagate_case: true
+    word: true
+  - trigger: "strt"
+    replace: "structure"
+    propagate_case: true
+    word: true
+  - trigger: "strts"
+    replace: "structures"
+    propagate_case: true
+    word: true
+  - trigger: "strtd"
+    replace: "structured"
+    propagate_case: true
+    word: true
+  - trigger: "strtg"
+    replace: "structuring"
+    propagate_case: true
+    word: true
+  - trigger: "idty"
+    replace: "identity"
+    propagate_case: true
+    word: true
+  - trigger: "idfy"
+    replace: "identify"
+    propagate_case: true
+    word: true
+  - trigger: "idtys"
+    replace: "identities"
+    propagate_case: true
+    word: true
+  - trigger: "sci"
+    replace: "science"
+    propagate_case: true
+    word: true
+  - trigger: "scis"
+    replace: "sciences"
+    propagate_case: true
+    word: true
+  - trigger: "plc"
+    replace: "police"
+    propagate_case: true
+    word: true
+  - trigger: "plcg"
+    replace: "policing"
+    propagate_case: true
+    word: true
+  - trigger: "org"
+    replace: "organize"
+    propagate_case: true
+    word: true
+  - trigger: "orgd"
+    replace: "organized"
+    propagate_case: true
+    word: true
+  - trigger: "orgg"
+    replace: "organizing"
+    propagate_case: true
+    word: true
+  - trigger: "orgs"
+    replace: "organizes"
+    propagate_case: true
+    word: true
+  - trigger: "orgn"
+    replace: "organization"
+    propagate_case: true
+    word: true
+  - trigger: "orgns"
+    replace: "organizations"
+    propagate_case: true
+    word: true
+  - trigger: "orgl"
+    replace: "organizational"
+    propagate_case: true
+    word: true
+  - trigger: ";cmd"
+    replace: "command"
+    propagate_case: true
+    word: true
+  - trigger: ";cmds"
+    replace: "commands"
+    propagate_case: true
+    word: true
+  - trigger: ";cmdd"
+    replace: "commanded"
+    propagate_case: true
+    word: true
+  - trigger: ";cmdg"
+    replace: "commanding"
+    propagate_case: true
+    word: true
+  # TYPOS
+  - trigger: "hte"
+    replace: "the"
+    propagate_case: true
+    word: true
+
+  - trigger: "thier"
+    replace: "their"
+    propagate_case: true
+    word: true
+
+  - trigger: "tehy"
+    replace: "they"
+    propagate_case: true
+    word: true
+  
+
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: ";date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+  - trigger: "sgdt"
+    replace: "- Day {{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+  # Print the output of a shell command
+  - trigger: ";shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+  - trigger: ";time"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%I:%M %p"
+  - trigger: ";clip"
+    replace: "{{clipboard}}"
+    vars:
+      - name: clipboard
+        type: clipboard
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
+
+  - trigger: ";chap"
+    force_mode: clipboard
+    vars:
+      - name: ref
+        type: form
+        params:
+          layout: |
+            Bible book and Chapter: [[book]]
+    replace: |
+      ```dataviewjs
+      let verses = dv.pages('')
+          .where(p => p.file.name.includes("{{ref.book}}-"))
+          .sort(p => parseInt(p.file.name.match(/-(\d+)$/)[1]));
+
+      verses.forEach((v, i) => {
+          let verseText = "";
+
+          if (v.file && v.file.content) {
+              let lines = v.file.content.split('\n');
+              let headingIndex = lines.findIndex(line => line.startsWith('## '));
+
+              if (headingIndex !== -1) {
+                  let verseLines = [];
+                  for (let j = headingIndex + 1; j < lines.length; j++) {
+                      if (lines[j].startsWith('## ')) break;
+                      verseLines.push(lines[j]);
+                  }
+                  verseText = verseLines.join('\n').trim();
+              }
+          }
+
+          if (!verseText && v.text) {
+              verseText = v.text;
+          }
+
+          dv.paragraph(`${i+1}) [[${v.file.name}|${verseText || "No verse text found"}]]`);
+      });
+      ```
+  - trigger: ";book"
+    force_mode: clipboard
+    vars:
+      - name: ref
+        type: form
+        params:
+          layout: |
+            Bible book: [[book]]
+    replace: |
+      ```dataviewjs
+        dv.list(
+          dv.pages()
+            .where(p => p.file.name.startsWith("{{ref.book}} Chapter "))
+            .sort(p => p.file.name, 'asc')
+            .map(p => p.file.link)
+        );
+        ```
+  
