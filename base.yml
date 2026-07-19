@@ -17,9 +17,18 @@ matches:
 
 
   #Legal Studies words
-  - trigger: "AA"
+  - trigger: ";aa"
     replace: "African American"
     word: true
+
+  - trigger: "ptcl"
+    replace: "protocol"
+    word: true
+    propagate_case: true
+  - trigger: "ptcls"
+    replace: "protocols"
+    word: true
+    propagate_case: true
   - trigger: "itnt"
     replace: "internet"
     propagate_case: true
