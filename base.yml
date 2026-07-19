@@ -591,7 +591,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "anal"
+  - trigger: "anl"
     replace: "analysis"
     propagate_case: true
     word: true
@@ -1594,6 +1594,18 @@ matches:
     word: true
   - trigger: "relg"
     replace: "relating"
+    propagate_case: true
+    word: true
+  - trigger: ";app"
+    replace: "application"
+    propagate_case: true
+    word: true
+  - trigger: ";apps"
+    replace: "applications"
+    propagate_case: true
+    word: true
+  - trigger: "mlw"
+    replace: "malware"
     propagate_case: true
     word: true
   - trigger: "relp"
