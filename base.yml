@@ -29,6 +29,22 @@ matches:
     replace: "protocols"
     word: true
     propagate_case: true
+  - trigger: ";cmp"
+    replace: "compare"
+    word: true
+    propagate_case: true
+  - trigger: ";cmpg"
+    replace: "comparing"
+    word: true
+    propagate_case: true
+  - trigger: ";cmps"
+    replace: "compares"
+    word: true
+    propagate_case: true
+  - trigger: ";cmpd"
+    replace: "compared"
+    word: true
+    propagate_case: true
   - trigger: "itnt"
     replace: "internet"
     propagate_case: true
