@@ -664,6 +664,18 @@ matches:
     replace: "copy"
     propagate_case: true
     word: true
+  - trigger: ";cpd"
+    replace: "copied"
+    propagate_case: true
+    word: true
+  - trigger: ";cps"
+    replace: "copies"
+    propagate_case: true
+    word: true
+  - trigger: ";cps"
+    replace: "copies"
+    propagate_case: true
+    word: true
   - trigger: "cm"
     replace: "crime"
     propagate_case: true
