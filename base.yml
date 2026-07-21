@@ -672,7 +672,7 @@ matches:
     replace: "copies"
     propagate_case: true
     word: true
-  - trigger: ";cps"
+  - trigger: ";cpg"
     replace: "copies"
     propagate_case: true
     word: true
