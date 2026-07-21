@@ -15,12 +15,26 @@ matches:
   - trigger: ":espanso"
     replace: "Hi there!"
 
-
   #Legal Studies words
   - trigger: ";aa"
     replace: "African American"
     word: true
-
+  - trigger: ";mv"
+    replace: "move"
+    word: true
+    propagate_case: true
+  - trigger: ";mvg"
+    replace: "moving"
+    word: true
+    propagate_case: true
+  - trigger: ";mvd"
+    replace: "moved"
+    word: true
+    propagate_case: true
+  - trigger: ";mvs"
+    replace: "moves"
+    word: true
+    propagate_case: true
   - trigger: "ptcl"
     replace: "protocol"
     word: true
@@ -1018,6 +1032,7 @@ matches:
     propagate_case: true
     word: true
 
+
   - trigger: "n-"
     replace: "negative"
     propagate_case: true
@@ -1037,7 +1052,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "funcl"
-    replace: "functional"
+    replace: "function"
     propagate_case: true
     word: true
   - trigger: "funcg"
