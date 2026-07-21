@@ -660,7 +660,7 @@ matches:
     replace: "courts"
     propagate_case: true
     word: true
-  -
+  - trigger: ";cp"
   - trigger: "cm"
     replace: "crime"
     propagate_case: true
