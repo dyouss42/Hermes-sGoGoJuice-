@@ -673,7 +673,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: ";cpg"
-    replace: "copies"
+    replace: "copying"
     propagate_case: true
     word: true
   - trigger: "cm"
