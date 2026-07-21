@@ -662,6 +662,8 @@ matches:
     word: true
   - trigger: ";cp"
     replace: "copy"
+    propagate_case: true
+    word: true
   - trigger: "cm"
     replace: "crime"
     propagate_case: true
