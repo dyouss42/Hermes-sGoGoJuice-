@@ -27,6 +27,10 @@ matches:
     replace: "foundations"
     word: true
     propagate_case: true
+  - trigger: "fdtns"
+    replace: "foundations"
+    word: true
+    propagate_case: true
   - trigger: ";aa"
     replace: "African American"
     word: true
