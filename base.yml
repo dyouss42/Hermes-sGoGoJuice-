@@ -22,6 +22,9 @@ matches:
   - trigger: ";aa"
     replace: "African American"
     word: true
+  - trigger: ";aa"
+    replace: "African American"
+    word: true
   - trigger: ";mv"
     replace: "move"
     word: true
