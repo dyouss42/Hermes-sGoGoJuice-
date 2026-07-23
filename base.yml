@@ -23,6 +23,10 @@ matches:
     replace: "foundation"
     word: true
     propagate_case: true
+  - trigger: "fdtn"
+    replace: "foundation"
+    word: true
+    propagate_case: true
   - trigger: ";aa"
     replace: "African American"
     word: true
