@@ -23,8 +23,8 @@ matches:
     replace: "foundation"
     word: true
     propagate_case: true
-  - trigger: "fdtn"
-    replace: "foundation"
+  - trigger: "fdtns"
+    replace: "foundations"
     word: true
     propagate_case: true
   - trigger: ";aa"
