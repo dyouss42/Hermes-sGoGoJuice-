@@ -27,7 +27,7 @@ matches:
     replace: "foundations"
     word: true
     propagate_case: true
-  - trigger: "fdtns"
+  - trigger: "fdtnl"
     replace: "foundations"
     word: true
     propagate_case: true
