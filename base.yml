@@ -16,9 +16,7 @@ matches:
     replace: "Hi there!"
 
   #Legal Studies words
-  - trigger: ";aa"
-    replace: "African American"
-    word: true
+  
   - trigger: ";mv"
     replace: "move"
     word: true
