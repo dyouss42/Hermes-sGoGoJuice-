@@ -31,6 +31,10 @@ matches:
     replace: "foundational"
     word: true
     propagate_case: true
+    - trigger: "fdtnl"
+    replace: "foundational"
+    word: true
+    propagate_case: true
   - trigger: ";aa"
     replace: "African American"
     word: true
