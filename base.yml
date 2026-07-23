@@ -31,7 +31,7 @@ matches:
     replace: "foundational"
     word: true
     propagate_case: true
-  - trigger: "fdtn"
+  - trigger: "fdtny"
     replace: "foundational"
     word: true
     propagate_case: true
