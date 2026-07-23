@@ -32,7 +32,7 @@ matches:
     word: true
     propagate_case: true
   - trigger: "fdtny"
-    replace: "foundationall"
+    replace: "foundationally"
     word: true
     propagate_case: true
   - trigger: ";aa"
