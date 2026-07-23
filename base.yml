@@ -20,7 +20,7 @@ matches:
     replace: "African American"
     word: true
   - trigger: "foundation"
-    replace: "African American"
+    replace: "foundation"
     word: true
   - trigger: ";aa"
     replace: "African American"
