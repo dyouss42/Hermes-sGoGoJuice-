@@ -1597,7 +1597,9 @@ matches:
     word: true
   - trigger: ";os"
     replace: "operating system"
-    propagate_case: true
+    word: true
+  - trigger: ";OS"
+    replace: "Operating System"
     word: true
   - trigger: ";oss"
     replace: "operating systems"
