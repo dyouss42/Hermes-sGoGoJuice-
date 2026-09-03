@@ -19,6 +19,14 @@ matches:
   - trigger: ";aa"
     replace: "African American"
     word: true
+  - trigger: "nt"
+    replace: "nation"
+    word: true
+    propagate_case: true
+  - trigger: "ntl"
+    replace: "national"
+    word: true
+    propagate_case: true
   - trigger: "fdtn"
     replace: "foundation"
     word: true
@@ -1366,6 +1374,10 @@ matches:
 
   - trigger: "envi"
     replace: "environment"
+    propagate_case: true
+    word: true
+  - trigger: "envil"
+    replace: "environmental"
     propagate_case: true
     word: true
   - trigger: "envis"
