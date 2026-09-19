@@ -66,7 +66,30 @@ matches:
   - trigger: "ptcls"
     replace: "protocols"
     word: true
+  - trigger: "dvlp"
+    replace: "develop"
     propagate_case: true
+    word: true
+  - trigger: "dvlpg"
+    replace: "developing"
+    propagate_case: true
+    word: true
+  - trigger: "dvlpd"
+    replace: "developed"
+    propagate_case: true
+    word: true
+  - trigger: "dvlpr"
+    replace: "developer"
+    propagate_case: true
+    word: true
+  - trigger: "dvlpt"
+    replace: "development"
+    propagate_case: true
+    word: true
+  - trigger: "dvlps"
+    replace: "develops"
+    propagate_case: true
+    word: true
   - trigger: ";cmp"
     replace: "compare"
     word: true
@@ -278,6 +301,14 @@ matches:
     replace: "computers"
     propagate_case: true
     word: true
+  - trigger: ";cred"
+    replace: "credential"
+    propagate_case: true
+    word: true
+  - trigger: ";creds"
+    replace: "credentials"
+    propagate_case: true
+    word: true
 
 
   - trigger: "inc"
@@ -362,7 +393,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "pc"
+  - trigger: ";pc"
     replace: "probable cause"
     propagate_case: true
     word: true
@@ -436,10 +467,16 @@ matches:
     word: true
   - trigger: "cjs"
     replace: "criminal justice system"
-    propagate_case: true
+    word: true
+  - trigger: "CJS"
+    replace: "Criminal Justice System"
     word: true
   - trigger: "cj"
     replace: "criminal justice"
+    propagate_case: true
+    word: true
+  - trigger: "jtc"
+    replace: "justice"
     propagate_case: true
     word: true
 
@@ -465,8 +502,28 @@ matches:
 
 
 
-  - trigger: "rea"
+  - trigger: "rsn"
     replace: "reason"
+    propagate_case: true
+    word: true
+  - trigger: "rsng"
+    replace: "reasoning"
+    propagate_case: true
+    word: true
+  - trigger: "rsns"
+    replace: "reasons"
+    propagate_case: true
+    word: true
+  - trigger: "rsnd"
+    replace: "reasoned"
+    propagate_case: true
+    word: true
+  - trigger: "rsne"
+    replace: "reasonable"
+    propagate_case: true
+    word: true
+  - trigger: "ursne"
+    replace: "unreasonable"
     propagate_case: true
     word: true
   - trigger: "sus"
@@ -492,10 +549,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "unr"
-    replace: "unreasonable"
-    propagate_case: true
-    word: true
+
   
   - trigger: "4a"
     replace: "Fourth Amendment"
@@ -593,6 +647,26 @@ matches:
     replace: "aggressivness"
     propagate_case: true
     word: true
+  - trigger: "disc"
+    replace: "discuss"
+    propagate_case: true
+    word: true
+  - trigger: "discs"
+    replace: "discusses"
+    propagate_case: true
+    word: true
+  - trigger: "discd"
+    replace: "discussed"
+    propagate_case: true
+    word: true
+  - trigger: "discg"
+    replace: "discussing"
+    propagate_case: true
+    word: true
+  - trigger: "discn"
+    replace: "discussion"
+    propagate_case: true
+    word: true
 
 
   - trigger: ";ex"
@@ -620,6 +694,14 @@ matches:
     word: true
   - trigger: "gnlz"
     replace: "generalize"
+    propagate_case: true
+    word: true
+  - trigger: "gnlze"
+    replace: "generalizable"
+    propagate_case: true
+    word: true
+  - trigger: "gnlzy"
+    replace: "generalizability"
     propagate_case: true
     word: true
   - trigger: "gnlzd"
@@ -656,6 +738,30 @@ matches:
 
   - trigger: "anl"
     replace: "analysis"
+    propagate_case: true
+    word: true
+  - trigger: "anlc"
+    replace: "analytic"
+    propagate_case: true
+    word: true
+  - trigger: "anlcl"
+    replace: "analytical"
+    propagate_case: true
+    word: true
+  - trigger: "anls"
+    replace: "analyses"
+    propagate_case: true
+    word: true
+  - trigger: "anlz"
+    replace: "analyze"
+    propagate_case: true
+    word: true
+  - trigger: "anlzg"
+    replace: "analyzing"
+    propagate_case: true
+    word: true
+  - trigger: "anlzd"
+    replace: "analyzed"
     propagate_case: true
     word: true
   - trigger: "frqy"
@@ -842,18 +948,8 @@ matches:
     replace: "dangers"
     propagate_case: true
     word: true
-  - trigger: ";sys"
-    replace: "system"
-    propagate_case: true
-    word: true
-  - trigger: ";syss"
-    replace: "systems"
-    propagate_case: true
-    word: true
-  - trigger: ";sysz"
-    replace: "systemize"
-    propagate_case: true
-    word: true
+ 
+  
   - trigger: "trad"
     replace: "tradition"
     propagate_case: true
@@ -1091,7 +1187,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "funcl"
-    replace: "function"
+    replace: "functional"
     propagate_case: true
     word: true
   - trigger: "funcg"
@@ -1128,14 +1224,30 @@ matches:
     word: true
 
   - trigger: ";arg"
+    replace: "argue"
+    propagate_case: true
+    word: true
+  - trigger: ";argd"
+    replace: "argued"
+    propagate_case: true
+    word: true
+  - trigger: ";args"
+    replace: "argues"
+    propagate_case: true
+    word: true
+  - trigger: ";argg"
+    replace: "arguing"
+    propagate_case: true
+    word: true
+  - trigger: ";argt"
     replace: "argument"
     propagate_case: true
-
-  - trigger: ";args"
+    word: true
+  - trigger: ";argts"
     replace: "arguments"
     propagate_case: true
-
-  - trigger: ";argv"
+    word: true
+  - trigger: ";argtv"
     replace: "argumentative"
     propagate_case: true
     word: true
@@ -1232,7 +1344,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "lit"
+  - trigger: "lite"
     replace: "literature"
     propagate_case: true
     word: true
@@ -1555,7 +1667,14 @@ matches:
     replace: "security"
     propagate_case: true
     word: true
-     
+  - trigger: "sctn"
+    replace: "section"
+    propagate_case: true
+    word: true
+  - trigger: "sctns"
+    replace: "sections"
+    propagate_case: true
+    word: true
   - trigger: "svlc"
     replace: "surveillance"
     propagate_case: true
@@ -1648,6 +1767,7 @@ matches:
     replace: "copyright infringement"
     propagate_case: true
     word: true
+  
 
   - trigger: "coprd"
     replace: "copyrighted"
@@ -1701,16 +1821,60 @@ matches:
     replace: "relationships"
     propagate_case: true
     word: true
+  - trigger: "strd"
+    replace: "standard"
+    propagate_case: true
+    word: true
+  - trigger: "strds"
+    replace: "standards"
+    propagate_case: true
+    word: true
+  - trigger: "strdz"
+    replace: "standardize"
+    propagate_case: true
+    word: true
+  - trigger: "strdzg"
+    replace: "standardizing"
+    propagate_case: true
+    word: true
+  - trigger: "strdzd"
+    replace: "standardized"
+    propagate_case: true
+    word: true
+  - trigger: "vtl"
+    replace: "virtual"
+    propagate_case: true
+    word: true
+  - trigger: "phyl"
+    replace: "physical"
+    propagate_case: true
+    word: true
+  - trigger: "phyly"
+    replace: "physically"
+    propagate_case: true
+    word: true
   - trigger: "wld"
     replace: "would"
+    propagate_case: true
+    word: true
+  - trigger: "wldt"
+    replace: "wouldn't"
     propagate_case: true
     word: true
   - trigger: "cld"
     replace: "could"
     propagate_case: true
     word: true
+  - trigger: "cldt"
+    replace: "couldn't"
+    propagate_case: true
+    word: true
   - trigger: "sld"
     replace: "should"
+    propagate_case: true
+    word: true
+  - trigger: "sldt"
+    replace: "shouldn't"
     propagate_case: true
     word: true
   - trigger: "sht"
@@ -1941,12 +2105,41 @@ matches:
     replace: "commanding"
     propagate_case: true
     word: true
+  
+  - trigger: "tt"
+    replace: "that"
+    propagate_case: true
+    word: true
+  - trigger: "ts"
+    replace: "this"
+    propagate_case: true
+    word: true
+  - trigger: "gdr"
+    replace: "gender"
+    propagate_case: true
+    word: true
+  
+  
+  
+
+
   # TYPOS
   - trigger: "hte"
     replace: "the"
     propagate_case: true
     word: true
-
+  - trigger: "adn"
+    replace: "and"
+    propagate_case: true
+    word: true
+  - trigger: "ot"
+    replace: "to"
+    propagate_case: true
+    word: true
+  - trigger: "nad"
+    replace: "and"
+    propagate_case: true
+    word: true
   - trigger: "thier"
     replace: "their"
     propagate_case: true
@@ -1956,6 +2149,27 @@ matches:
     replace: "they"
     propagate_case: true
     word: true
+  - trigger: "teh"
+    replace: "the"
+    propagate_case: true
+    word: true
+  - trigger: "wiht"
+    replace: "with"
+    propagate_case: true
+    word: true
+  - trigger: "womens"
+    replace: "women's"
+    propagate_case: true
+    word: true
+  - trigger: "mens"
+    replace: "men's"
+    propagate_case: true
+    word: true
+  - trigger: "cant"
+    replace: "can't"
+    propagate_case: true
+    word: true
+  
   
 
 
