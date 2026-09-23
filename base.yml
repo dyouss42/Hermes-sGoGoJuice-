@@ -842,7 +842,7 @@ matches:
     replace: "Native Americans"
     propagate_case: true
     word: true
-  - trigger: ";as"
+  - trigger: ";aa"
     replace: "Native Americans"
     propagate_case: true
     word: true
