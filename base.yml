@@ -2375,6 +2375,10 @@ matches:
     replace: "with"
     propagate_case: true
     word: true
+  - trigger: "wiht"
+    replace: "with"
+    propagate_case: true
+    word: true
   - trigger: "ahve"
     replace: "have"
     propagate_case: true
