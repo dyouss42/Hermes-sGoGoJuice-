@@ -695,7 +695,10 @@ matches:
     replace: "discussion"
     propagate_case: true
     word: true
-
+  - trigger: "discns"
+    replace: "discussion"
+    propagate_case: true
+    word: true
 
   - trigger: ";ex"
     replace: "example"
