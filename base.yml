@@ -667,8 +667,8 @@ matches:
     replace: "described"
     propagate_case: true
     word: true
-  - trigger: "descd"
-    replace: "described"
+  - trigger: "descn"
+    replace: "description"
     propagate_case: true
     word: true
     
