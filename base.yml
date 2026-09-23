@@ -186,7 +186,7 @@ matches:
     replace: "addition"
     propagate_case: true
     word: true
-  - trigger: "cgrs"
+  - trigger: "btwn"
     replace: "Congress"
     propagate_case: true
     word: true
