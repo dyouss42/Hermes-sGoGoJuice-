@@ -175,7 +175,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "addl"
-    replace: "address"
+    replace: "addi"
     propagate_case: true
     word: true
   - trigger: "cgrs"
