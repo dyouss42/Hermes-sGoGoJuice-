@@ -2376,7 +2376,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "runnign"
-    replace: "with"
+    replace: "running"
     propagate_case: true
     word: true
   - trigger: "ahve"
