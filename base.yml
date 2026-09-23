@@ -2161,6 +2161,10 @@ matches:
     replace: "sciences"
     propagate_case: true
     word: true
+  - trigger: "scis"
+    replace: "sciences"
+    propagate_case: true
+    word: true
   - trigger: "plc"
     replace: "police"
     propagate_case: true
