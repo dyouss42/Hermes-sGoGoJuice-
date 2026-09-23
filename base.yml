@@ -183,7 +183,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "addn"
-    replace: "additionally"
+    replace: "addition"
     propagate_case: true
     word: true
   - trigger: "cgrs"
