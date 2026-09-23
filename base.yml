@@ -106,7 +106,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "lrn"
-    replace: "develops"
+    replace: "learn"
     propagate_case: true
     word: true
   - trigger: ";cmp"
