@@ -810,7 +810,7 @@ matches:
     propagate_case: true
     word: true
   
-  - trigger: "Wi"
+  - trigger: ";Wi"
     replace: "Wisconsin"
     propagate_case: true
     word: true
