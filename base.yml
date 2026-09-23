@@ -62,7 +62,7 @@ matches:
     replace: "moving"
     word: true
     propagate_case: true
-  - trigger: ";mvg"
+  - trigger: ";mvt"
     replace: "moving"
     word: true
     propagate_case: true
