@@ -2407,7 +2407,7 @@ matches:
     replace: "land"
     propagate_case: true
     word: true
-  - trigger: "ladn"
+  - trigger: "wehn"
     replace: "land"
     propagate_case: true
     word: true
