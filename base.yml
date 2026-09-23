@@ -2149,7 +2149,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: ";src"
-    replace: "structure"
+    replace: "source"
     propagate_case: true
     word: true
   - trigger: "strt"
