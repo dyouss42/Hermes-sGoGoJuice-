@@ -843,7 +843,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: ";aa"
-    replace: "African Americans"
+    replace: "African American"
     propagate_case: true
     word: true
 
