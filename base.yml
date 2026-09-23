@@ -510,6 +510,10 @@ matches:
     replace: "authentic"
     propagate_case: true
     word: true
+  - trigger: "auth"
+    replace: "authentic"
+    propagate_case: true
+    word: true
   - trigger: "authn"
     replace: "authentication"
     propagate_case: true
