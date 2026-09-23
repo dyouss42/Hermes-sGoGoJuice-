@@ -723,7 +723,7 @@ matches:
     replace: "descriptions"
     propagate_case: true
     word: true
-  - trigger: "disc"
+  - trigger: "dsc"
     replace: "discuss"
     propagate_case: true
     word: true
