@@ -1484,7 +1484,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "sci"
-    replace: "critiques"
+    replace: "science"
     propagate_case: true
     word: true
   - trigger: "rly"
