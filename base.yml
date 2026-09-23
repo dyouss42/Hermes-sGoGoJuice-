@@ -2033,6 +2033,10 @@ matches:
     replace: "structuring"
     propagate_case: true
     word: true
+  - trigger: "strtg"
+    replace: "structuring"
+    propagate_case: true
+    word: true
   - trigger: "idty"
     replace: "identity"
     propagate_case: true
