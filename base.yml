@@ -2152,6 +2152,10 @@ matches:
     replace: "structure"
     propagate_case: true
     word: true
+  - trigger: "strt"
+    replace: "structure"
+    propagate_case: true
+    word: true
   - trigger: "strts"
     replace: "structures"
     propagate_case: true
