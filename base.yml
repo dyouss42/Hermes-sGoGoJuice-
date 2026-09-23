@@ -142,7 +142,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "srchd"
-    replace: "searchd"
+    replace: "searched"
     propagate_case: true
     word: true
   - trigger: "srchs"
