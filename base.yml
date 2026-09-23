@@ -2034,7 +2034,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "strtl"
-    replace: "structuring"
+    replace: "structural"
     propagate_case: true
     word: true
   - trigger: "idty"
