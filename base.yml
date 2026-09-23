@@ -838,6 +838,10 @@ matches:
     replace: "Native American"
     propagate_case: true
     word: true
+  - trigger: ";nas"
+    replace: "Native Americans"
+    propagate_case: true
+    word: true
 
   - trigger: "anl"
     replace: "analysis"
