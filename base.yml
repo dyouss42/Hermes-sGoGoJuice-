@@ -1483,7 +1483,7 @@ matches:
     replace: "critiques"
     propagate_case: true
     word: true
-  - trigger: "crtqs"
+  - trigger: "sci"
     replace: "critiques"
     propagate_case: true
     word: true
