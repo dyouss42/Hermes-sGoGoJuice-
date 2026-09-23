@@ -739,7 +739,7 @@ matches:
     replace: "discussing"
     propagate_case: true
     word: true
-  - trigger: "discn"
+  - trigger: "iscn"
     replace: "discussion"
     propagate_case: true
     word: true
