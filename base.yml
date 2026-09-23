@@ -2174,6 +2174,10 @@ matches:
     replace: "your"
     propagate_case: true
     word: true
+  - trigger: "ur"
+    replace: "your"
+    propagate_case: true
+    word: true
   - trigger: "strt"
     replace: "structure"
     propagate_case: true
