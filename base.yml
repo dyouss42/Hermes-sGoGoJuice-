@@ -2183,7 +2183,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "urslf'"
-    replace: "you're"
+    replace: "yourself"
     propagate_case: true
     word: true
   - trigger: "strt"
