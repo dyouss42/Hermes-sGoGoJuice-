@@ -190,6 +190,10 @@ matches:
     replace: "Congress"
     propagate_case: true
     word: true
+  - trigger: "cgrs"
+    replace: "Congress"
+    propagate_case: true
+    word: true
   - trigger: "s230"
     replace: "Section 230"
     word: true
