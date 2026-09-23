@@ -835,7 +835,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: ";na"
-    replace: "Virginia"
+    replace: "Native Americans"
     propagate_case: true
     word: true
 
