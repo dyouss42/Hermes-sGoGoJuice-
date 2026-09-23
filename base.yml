@@ -118,7 +118,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "lrnd"
-    replace: "learning"
+    replace: "learned"
     propagate_case: true
     word: true
   - trigger: ";cmp"
