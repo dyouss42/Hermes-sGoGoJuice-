@@ -2175,7 +2175,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "ur'"
-    replace: "your"
+    replace: "you're"
     propagate_case: true
     word: true
   - trigger: "strt"
