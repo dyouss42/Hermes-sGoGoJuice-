@@ -731,7 +731,7 @@ matches:
     replace: "discusses"
     propagate_case: true
     word: true
-  - trigger: "discd"
+  - trigger: "dscd"
     replace: "discussed"
     propagate_case: true
     word: true
