@@ -2391,7 +2391,7 @@ matches:
     replace: "servants"
     propagate_case: true
     word: true
-  - trigger: "servents"
+  - trigger: "servent"
     replace: "servants"
     propagate_case: true
     word: true
