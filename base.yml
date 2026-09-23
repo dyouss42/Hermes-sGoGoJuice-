@@ -182,7 +182,7 @@ matches:
     replace: "additionally"
     propagate_case: true
     word: true
-  - trigger: "addy"
+  - trigger: "addn"
     replace: "additionally"
     propagate_case: true
     word: true
