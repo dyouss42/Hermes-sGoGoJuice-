@@ -2408,7 +2408,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "wehn"
-    replace: "land"
+    replace: "when"
     propagate_case: true
     word: true
   - trigger: "servents"
