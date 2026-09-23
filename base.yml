@@ -2164,6 +2164,10 @@ matches:
     replace: "sourcing"
     propagate_case: true
     word: true
+  - trigger: ";srcg"
+    replace: "sourcing"
+    propagate_case: true
+    word: true
   - trigger: "strt"
     replace: "structure"
     propagate_case: true
