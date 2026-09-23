@@ -818,7 +818,7 @@ matches:
     replace: "Illinois"
     propagate_case: true
     word: true
-  - trigger: ";il"
+  - trigger: ";md"
     replace: "Illinois"
     propagate_case: true
     word: true
