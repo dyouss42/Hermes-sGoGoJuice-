@@ -696,7 +696,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "discns"
-    replace: "discussion"
+    replace: "discussions"
     propagate_case: true
     word: true
 
