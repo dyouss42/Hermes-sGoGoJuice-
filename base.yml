@@ -743,7 +743,7 @@ matches:
     replace: "discussion"
     propagate_case: true
     word: true
-  - trigger: "discns"
+  - trigger: "dscns"
     replace: "discussions"
     propagate_case: true
     word: true
