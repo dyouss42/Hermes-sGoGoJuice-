@@ -1463,6 +1463,10 @@ matches:
     replace: "critic"
     propagate_case: true
     word: true
+  - trigger: "crt"
+    replace: "critic"
+    propagate_case: true
+    word: true
 
   - trigger: "rly"
     replace: "really"
