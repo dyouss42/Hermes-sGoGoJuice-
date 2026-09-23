@@ -2267,7 +2267,7 @@ matches:
     replace: "knowing"
     propagate_case: true
     word: true
-  - trigger: "kww"
+  - trigger: "kws"
     replace: "knowledge"
     propagate_case: true
     word: true
