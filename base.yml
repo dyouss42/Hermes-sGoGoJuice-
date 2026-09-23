@@ -1468,7 +1468,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "crtq"
-    replace: "critical"
+    replace: "critique"
     propagate_case: true
     word: true
 
