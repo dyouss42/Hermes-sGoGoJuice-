@@ -2161,7 +2161,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: ";srcg"
-    replace: "sourced"
+    replace: "sourcing"
     propagate_case: true
     word: true
   - trigger: "strt"
