@@ -2270,7 +2270,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "ahve"
-    replace: "with"
+    replace: "have"
     propagate_case: true
     word: true
   - trigger: "womens"
