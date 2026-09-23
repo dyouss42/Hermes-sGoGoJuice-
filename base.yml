@@ -58,10 +58,6 @@ matches:
   - trigger: ";mvs"
     replace: "moves"
     word: true
-  - trigger: ";mvg"
-    replace: "moving"
-    word: true
-    propagate_case: true
   - trigger: ";mvt"
     replace: "movement"
     word: true
