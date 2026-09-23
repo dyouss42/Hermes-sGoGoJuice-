@@ -105,6 +105,10 @@ matches:
     replace: "develops"
     propagate_case: true
     word: true
+  - trigger: "dvlps"
+    replace: "develops"
+    propagate_case: true
+    word: true
   - trigger: ";cmp"
     replace: "compare"
     word: true
