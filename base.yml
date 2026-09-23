@@ -113,7 +113,7 @@ matches:
     replace: "learns"
     propagate_case: true
     word: true
-  - trigger: "lrn"
+  - trigger: "lrng"
     replace: "learn"
     propagate_case: true
     word: true
