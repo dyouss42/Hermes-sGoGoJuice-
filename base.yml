@@ -59,7 +59,7 @@ matches:
     replace: "moves"
     word: true
   - trigger: ";mvg"
-    replace: "moves"
+    replace: "moving"
     word: true
     propagate_case: true
   - trigger: "ptcl"
