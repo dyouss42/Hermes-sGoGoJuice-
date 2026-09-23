@@ -396,7 +396,10 @@ matches:
     replace: "decreasing"
     propagate_case: true
     word: true
-
+  - trigger: "hvr"
+  replace: "however"
+  propagate_case: true
+  word: true
   - trigger: ";pc"
     replace: "probable cause"
     propagate_case: true
