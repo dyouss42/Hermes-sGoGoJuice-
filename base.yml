@@ -2156,7 +2156,7 @@ matches:
     replace: "sources"
     propagate_case: true
     word: true
-  - trigger: ";srcs"
+  - trigger: ";srcd"
     replace: "sources"
     propagate_case: true
     word: true
