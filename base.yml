@@ -659,7 +659,7 @@ matches:
     replace: "describes"
     propagate_case: true
     word: true
-  - trigger: "descs"
+  - trigger: "descg"
     replace: "describes"
     propagate_case: true
     word: true
