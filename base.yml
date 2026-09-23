@@ -989,6 +989,10 @@ matches:
     replace: "agriculture"
     propagate_case: true
     word: true
+  - trigger: "agric"
+    replace: "agriculture"
+    propagate_case: true
+    word: true
   - trigger: "clt"
     replace: "culture"
     propagate_case: true
