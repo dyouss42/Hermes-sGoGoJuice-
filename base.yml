@@ -86,7 +86,7 @@ matches:
     replace: "development"
     propagate_case: true
     word: true
-  - trigger: "dvlpt"
+  - trigger: "dvlptl"
     replace: "development"
     propagate_case: true
     word: true
