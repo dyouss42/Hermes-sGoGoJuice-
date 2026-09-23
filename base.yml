@@ -2164,7 +2164,7 @@ matches:
     replace: "sourcing"
     propagate_case: true
     word: true
-  - trigger: ";srcg"
+  - trigger: "u"
     replace: "sourcing"
     propagate_case: true
     word: true
