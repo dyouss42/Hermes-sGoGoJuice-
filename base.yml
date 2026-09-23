@@ -2148,7 +2148,7 @@ matches:
     replace: "grouping"
     propagate_case: true
     word: true
-  - trigger: "strt"
+  - trigger: ";src"
     replace: "structure"
     propagate_case: true
     word: true
