@@ -2171,7 +2171,7 @@ matches:
     replace: "You"
     word: true
   - trigger: "Ur"
-    replace: "sourcing"
+    replace: "ur"
     propagate_case: true
     word: true
   - trigger: "strt"
