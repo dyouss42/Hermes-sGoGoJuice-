@@ -1448,7 +1448,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "atho"
-    replace: "though"
+    replace: "although"
     propagate_case: true
     word: true
   - trigger: "tho"
