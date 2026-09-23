@@ -1447,7 +1447,7 @@ matches:
     replace: "prisoners"
     propagate_case: true
     word: true
-  - trigger: "tho"
+  - trigger: "atho"
     replace: "though"
     propagate_case: true
     word: true
