@@ -1001,6 +1001,10 @@ matches:
     replace: "cultural"
     propagate_case: true
     word: true
+  - trigger: "cltly"
+    replace: "cultural"
+    propagate_case: true
+    word: true
 
   - trigger: "lbl"
     replace: "liable"
