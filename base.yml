@@ -2375,7 +2375,7 @@ matches:
     replace: "with"
     propagate_case: true
     word: true
-  - trigger: "wiht"
+  - trigger: "runnign"
     replace: "with"
     propagate_case: true
     word: true
