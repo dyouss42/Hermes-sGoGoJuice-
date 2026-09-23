@@ -671,7 +671,10 @@ matches:
     replace: "description"
     propagate_case: true
     word: true
-    
+  - trigger: "descns"
+    replace: "descriptions"
+    propagate_case: true
+    word: true
   - trigger: "disc"
     replace: "discuss"
     propagate_case: true
