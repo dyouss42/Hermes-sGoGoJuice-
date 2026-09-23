@@ -735,7 +735,7 @@ matches:
     replace: "discussed"
     propagate_case: true
     word: true
-  - trigger: "discg"
+  - trigger: "dscg"
     replace: "discussing"
     propagate_case: true
     word: true
