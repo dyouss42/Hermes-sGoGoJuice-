@@ -1460,7 +1460,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "crt"
-    replace: "though"
+    replace: "critic"
     propagate_case: true
     word: true
 
