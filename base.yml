@@ -506,7 +506,7 @@ matches:
     replace: "authority"
     propagate_case: true
     word: true
-  - trigger: "ath"
+  - trigger: "aths"
     replace: "authority"
     propagate_case: true
     word: true
