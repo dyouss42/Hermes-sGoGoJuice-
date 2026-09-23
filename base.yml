@@ -834,7 +834,7 @@ matches:
     replace: "Virginia"
     propagate_case: true
     word: true
-  - trigger: ";va"
+  - trigger: ";na"
     replace: "Virginia"
     propagate_case: true
     word: true
