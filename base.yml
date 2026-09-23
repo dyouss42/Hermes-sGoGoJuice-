@@ -2033,7 +2033,7 @@ matches:
     replace: "structuring"
     propagate_case: true
     word: true
-  - trigger: "strt"
+  - trigger: "strtl"
     replace: "structuring"
     propagate_case: true
     word: true
