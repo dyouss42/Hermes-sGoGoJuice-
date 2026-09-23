@@ -1472,7 +1472,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "crtqg"
-    replace: "critiq"
+    replace: "critiquing"
     propagate_case: true
     word: true
 
