@@ -660,7 +660,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "descg"
-    replace: "describes"
+    replace: "describing"
     propagate_case: true
     word: true
   - trigger: "disc"
