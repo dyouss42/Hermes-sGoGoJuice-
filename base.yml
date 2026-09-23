@@ -90,7 +90,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "dvlprs"
-    replace: "developer"
+    replace: "developers"
     propagate_case: true
     word: true
   - trigger: "dvlpt"
