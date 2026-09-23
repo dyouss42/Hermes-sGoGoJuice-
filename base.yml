@@ -2160,6 +2160,10 @@ matches:
     replace: "sourced"
     propagate_case: true
     word: true
+  - trigger: ";srcd"
+    replace: "sourced"
+    propagate_case: true
+    word: true
   - trigger: "strt"
     replace: "structure"
     propagate_case: true
