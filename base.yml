@@ -2168,7 +2168,7 @@ matches:
     replace: "you"
     word: true
   - trigger: "u"
-    replace: "you"
+    replace: "You"
     word: true
   - trigger: "strt"
     replace: "structure"
