@@ -2260,7 +2260,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "kwe"
-    replace: "knew"
+    replace: "knowledge"
     propagate_case: true
     word: true
   - trigger: "idty"
