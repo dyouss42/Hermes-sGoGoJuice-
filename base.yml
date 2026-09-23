@@ -179,7 +179,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "addy"
-    replace: "additional"
+    replace: "additionally"
     propagate_case: true
     word: true
   - trigger: "cgrs"
