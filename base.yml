@@ -655,7 +655,7 @@ matches:
     replace: "describe"
     propagate_case: true
     word: true
-  - trigger: "desc"
+  - trigger: "descs"
     replace: "describe"
     propagate_case: true
     word: true
