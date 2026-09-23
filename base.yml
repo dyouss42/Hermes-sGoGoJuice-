@@ -990,6 +990,10 @@ matches:
     replace: "agriculture"
     propagate_case: true
     word: true
+  - trigger: "agclt"
+    replace: "agriculture"
+    propagate_case: true
+    word: true
   - trigger: "clt"
     replace: "culture"
     propagate_case: true
