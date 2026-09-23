@@ -1463,7 +1463,7 @@ matches:
     replace: "critic"
     propagate_case: true
     word: true
-  - trigger: "crt"
+  - trigger: "crtl"
     replace: "critic"
     propagate_case: true
     word: true
