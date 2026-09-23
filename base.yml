@@ -2387,7 +2387,7 @@ matches:
     replace: "land"
     propagate_case: true
     word: true
-  - trigger: "ladn"
+  - trigger: "servents"
     replace: "land"
     propagate_case: true
     word: true
