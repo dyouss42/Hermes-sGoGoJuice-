@@ -178,6 +178,10 @@ matches:
     replace: "additional"
     propagate_case: true
     word: true
+  - trigger: "addl"
+    replace: "additional"
+    propagate_case: true
+    word: true
   - trigger: "cgrs"
     replace: "Congress"
     propagate_case: true
