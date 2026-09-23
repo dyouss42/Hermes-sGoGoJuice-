@@ -831,7 +831,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: ";va"
-    replace: "Maryland"
+    replace: "Virginia"
     propagate_case: true
     word: true
 
