@@ -2210,7 +2210,7 @@ matches:
     replace: "your"
     propagate_case: true
     word: true
-  - trigger: "ur'"
+  - trigger: "ure"
     replace: "you're"
     propagate_case: true
     word: true
