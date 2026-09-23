@@ -1483,10 +1483,7 @@ matches:
     replace: "critiques"
     propagate_case: true
     word: true
-  - trigger: "sci"
-    replace: "science"
-    propagate_case: true
-    word: true
+  
   - trigger: "rly"
     replace: "really"
     propagate_case: true
