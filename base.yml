@@ -2178,6 +2178,10 @@ matches:
     replace: "you're"
     propagate_case: true
     word: true
+  - trigger: "ur'"
+    replace: "you're"
+    propagate_case: true
+    word: true
   - trigger: "strt"
     replace: "structure"
     propagate_case: true
