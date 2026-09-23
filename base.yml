@@ -830,7 +830,7 @@ matches:
     replace: "Maryland"
     propagate_case: true
     word: true
-  - trigger: ";md"
+  - trigger: ";va"
     replace: "Maryland"
     propagate_case: true
     word: true
