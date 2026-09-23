@@ -105,7 +105,7 @@ matches:
     replace: "develops"
     propagate_case: true
     word: true
-  - trigger: "dvlps"
+  - trigger: "lrn"
     replace: "develops"
     propagate_case: true
     word: true
