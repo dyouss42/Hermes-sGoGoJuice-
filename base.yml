@@ -506,7 +506,7 @@ matches:
     replace: "accessible"
     propagate_case: true
     word: true
-  - trigger: "auth"
+  - trigger: "ath"
     replace: "authentic"
     propagate_case: true
     word: true
