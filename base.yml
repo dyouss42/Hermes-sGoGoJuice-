@@ -62,6 +62,10 @@ matches:
     replace: "moving"
     word: true
     propagate_case: true
+  - trigger: ";mvg"
+    replace: "moving"
+    word: true
+    propagate_case: true
   - trigger: "ptcl"
     replace: "protocol"
     word: true
