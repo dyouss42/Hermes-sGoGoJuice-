@@ -2269,7 +2269,7 @@ matches:
     replace: "with"
     propagate_case: true
     word: true
-  - trigger: "wiht"
+  - trigger: "ahve"
     replace: "with"
     propagate_case: true
     word: true
