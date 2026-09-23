@@ -182,6 +182,10 @@ matches:
     replace: "additionally"
     propagate_case: true
     word: true
+  - trigger: "addy"
+    replace: "additionally"
+    propagate_case: true
+    word: true
   - trigger: "cgrs"
     replace: "Congress"
     propagate_case: true
