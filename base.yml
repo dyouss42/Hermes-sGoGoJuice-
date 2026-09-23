@@ -2392,7 +2392,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "servent"
-    replace: "servants"
+    replace: "servant"
     propagate_case: true
     word: true
   - trigger: "ahve"
