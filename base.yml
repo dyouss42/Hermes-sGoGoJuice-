@@ -58,7 +58,7 @@ matches:
   - trigger: ";mvs"
     replace: "moves"
     word: true
-  - trigger: ";mvs"
+  - trigger: ";mvg"
     replace: "moves"
     word: true
     propagate_case: true
