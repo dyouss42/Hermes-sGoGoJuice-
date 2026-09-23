@@ -667,6 +667,7 @@ matches:
     replace: "described"
     propagate_case: true
     word: true
+    
   - trigger: "disc"
     replace: "discuss"
     propagate_case: true
