@@ -2251,6 +2251,10 @@ matches:
     replace: "structural"
     propagate_case: true
     word: true
+  - trigger: "strtl"
+    replace: "structural"
+    propagate_case: true
+    word: true
   - trigger: "idty"
     replace: "identity"
     propagate_case: true
