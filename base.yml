@@ -818,6 +818,10 @@ matches:
     replace: "Illinois"
     propagate_case: true
     word: true
+  - trigger: ";il"
+    replace: "Illinois"
+    propagate_case: true
+    word: true
 
   - trigger: "anl"
     replace: "analysis"
