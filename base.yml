@@ -814,7 +814,7 @@ matches:
     replace: "Wisconsin"
     propagate_case: true
     word: true
-  - trigger: ";wi"
+  - trigger: ";i"
     replace: "Wisconsin"
     propagate_case: true
     word: true
