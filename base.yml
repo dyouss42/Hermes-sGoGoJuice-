@@ -2167,6 +2167,9 @@ matches:
   - trigger: "u"
     replace: "you"
     word: true
+  - trigger: "u"
+    replace: "you"
+    word: true
   - trigger: "strt"
     replace: "structure"
     propagate_case: true
