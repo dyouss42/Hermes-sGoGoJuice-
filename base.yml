@@ -2156,6 +2156,10 @@ matches:
     replace: "sources"
     propagate_case: true
     word: true
+  - trigger: ";srcs"
+    replace: "sources"
+    propagate_case: true
+    word: true
   - trigger: "strt"
     replace: "structure"
     propagate_case: true
