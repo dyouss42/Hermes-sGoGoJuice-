@@ -991,7 +991,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "agcltl"
-    replace: "agriculture"
+    replace: "agricultural"
     propagate_case: true
     word: true
   - trigger: "clt"
