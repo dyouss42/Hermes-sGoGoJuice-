@@ -2263,7 +2263,7 @@ matches:
     replace: "knowledge"
     propagate_case: true
     word: true
-  - trigger: "kwe"
+  - trigger: "kwg"
     replace: "knowledge"
     propagate_case: true
     word: true
