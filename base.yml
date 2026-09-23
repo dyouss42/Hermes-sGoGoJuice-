@@ -2379,6 +2379,10 @@ matches:
     replace: "running"
     propagate_case: true
     word: true
+  - trigger: "runnign"
+    replace: "running"
+    propagate_case: true
+    word: true
   - trigger: "ahve"
     replace: "have"
     propagate_case: true
