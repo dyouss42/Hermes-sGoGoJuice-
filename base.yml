@@ -1002,7 +1002,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "cltly"
-    replace: "cultural"
+    replace: "culturally"
     propagate_case: true
     word: true
 
