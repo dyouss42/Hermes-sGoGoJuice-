@@ -819,7 +819,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: ";md"
-    replace: "Illinois"
+    replace: "Maryland"
     propagate_case: true
     word: true
 
