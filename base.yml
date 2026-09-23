@@ -846,6 +846,10 @@ matches:
     replace: "African American"
     propagate_case: true
     word: true
+  - trigger: ";aa"
+    replace: "African American"
+    propagate_case: true
+    word: true
 
   - trigger: "anl"
     replace: "analysis"
