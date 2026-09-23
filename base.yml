@@ -109,6 +109,10 @@ matches:
     replace: "learn"
     propagate_case: true
     word: true
+  - trigger: "lrn"
+    replace: "learn"
+    propagate_case: true
+    word: true
   - trigger: ";cmp"
     replace: "compare"
     word: true
