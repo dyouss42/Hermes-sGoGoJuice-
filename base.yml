@@ -2387,6 +2387,10 @@ matches:
     replace: "land"
     propagate_case: true
     word: true
+  - trigger: "ladn"
+    replace: "land"
+    propagate_case: true
+    word: true
   - trigger: "ahve"
     replace: "have"
     propagate_case: true
