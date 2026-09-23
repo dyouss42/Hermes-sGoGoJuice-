@@ -2388,7 +2388,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "servents"
-    replace: "land"
+    replace: "servants"
     propagate_case: true
     word: true
   - trigger: "ahve"
