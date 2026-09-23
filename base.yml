@@ -2259,7 +2259,7 @@ matches:
     replace: "knew"
     propagate_case: true
     word: true
-  - trigger: "kwd"
+  - trigger: "kwe"
     replace: "knew"
     propagate_case: true
     word: true
