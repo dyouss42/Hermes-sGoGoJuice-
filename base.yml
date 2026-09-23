@@ -499,7 +499,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "proby"
-    replace: "probable"
+    replace: "probablity"
     propagate_case: true
     word: true
   - trigger: "cau"
