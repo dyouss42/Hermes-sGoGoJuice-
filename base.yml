@@ -117,6 +117,10 @@ matches:
     replace: "learning"
     propagate_case: true
     word: true
+  - trigger: "lrng"
+    replace: "learning"
+    propagate_case: true
+    word: true
   - trigger: ";cmp"
     replace: "compare"
     word: true
