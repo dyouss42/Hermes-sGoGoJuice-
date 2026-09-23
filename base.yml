@@ -1479,7 +1479,7 @@ matches:
     replace: "critiqued"
     propagate_case: true
     word: true
-  - trigger: "crtqd"
+  - trigger: "crtqs"
     replace: "critiqued"
     propagate_case: true
     word: true
