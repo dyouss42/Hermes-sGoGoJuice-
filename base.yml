@@ -2252,7 +2252,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "kw"
-    replace: "structural"
+    replace: "know"
     propagate_case: true
     word: true
   - trigger: "idty"
