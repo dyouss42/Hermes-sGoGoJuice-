@@ -2157,7 +2157,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: ";srcd"
-    replace: "sources"
+    replace: "sourced"
     propagate_case: true
     word: true
   - trigger: "strt"
