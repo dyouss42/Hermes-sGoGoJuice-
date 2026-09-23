@@ -2268,7 +2268,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "kws"
-    replace: "knowledge"
+    replace: "knows"
     propagate_case: true
     word: true
   - trigger: "idty"
