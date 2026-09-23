@@ -2182,7 +2182,7 @@ matches:
     replace: "yours"
     propagate_case: true
     word: true
-  - trigger: "urself'"
+  - trigger: "urslf'"
     replace: "you're"
     propagate_case: true
     word: true
