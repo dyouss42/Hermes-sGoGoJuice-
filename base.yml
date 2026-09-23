@@ -2407,6 +2407,10 @@ matches:
     replace: "land"
     propagate_case: true
     word: true
+  - trigger: "ladn"
+    replace: "land"
+    propagate_case: true
+    word: true
   - trigger: "servents"
     replace: "servants"
     propagate_case: true
