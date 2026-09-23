@@ -1471,6 +1471,10 @@ matches:
     replace: "critique"
     propagate_case: true
     word: true
+  - trigger: "crtq"
+    replace: "critique"
+    propagate_case: true
+    word: true
 
   - trigger: "rly"
     replace: "really"
