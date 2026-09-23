@@ -2161,7 +2161,7 @@ matches:
     replace: "sciences"
     propagate_case: true
     word: true
-  - trigger: "scis"
+  - trigger: "scic"
     replace: "sciences"
     propagate_case: true
     word: true
