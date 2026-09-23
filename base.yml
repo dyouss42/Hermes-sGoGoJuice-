@@ -511,7 +511,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "athn"
-    replace: "author"
+    replace: "authorization"
     propagate_case: true
     word: true
   - trigger: "auth"
