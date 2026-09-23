@@ -2380,7 +2380,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "ladn"
-    replace: "running"
+    replace: "land"
     propagate_case: true
     word: true
   - trigger: "ahve"
