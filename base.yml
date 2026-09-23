@@ -498,7 +498,10 @@ matches:
     replace: "probable"
     propagate_case: true
     word: true
-
+  - trigger: "proby"
+    replace: "probable"
+    propagate_case: true
+    word: true
   - trigger: "cau"
     replace: "cause"
     propagate_case: true
