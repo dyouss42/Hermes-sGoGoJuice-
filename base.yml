@@ -63,7 +63,7 @@ matches:
     word: true
     propagate_case: true
   - trigger: ";mvt"
-    replace: "move"
+    replace: "movement"
     word: true
     propagate_case: true
   - trigger: "ptcl"
