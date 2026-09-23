@@ -1459,7 +1459,7 @@ matches:
     replace: "though"
     propagate_case: true
     word: true
-  - trigger: "tho"
+  - trigger: "crt"
     replace: "though"
     propagate_case: true
     word: true
