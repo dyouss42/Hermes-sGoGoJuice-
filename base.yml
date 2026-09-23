@@ -174,7 +174,10 @@ matches:
     replace: "plaintiffs"
     propagate_case: true
     word: true
-  
+  - trigger: "addr"
+    replace: "address"
+    propagate_case: true
+    word: true
   - trigger: "cgrs"
     replace: "Congress"
     propagate_case: true
