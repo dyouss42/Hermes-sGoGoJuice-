@@ -834,6 +834,10 @@ matches:
     replace: "Virginia"
     propagate_case: true
     word: true
+  - trigger: ";va"
+    replace: "Virginia"
+    propagate_case: true
+    word: true
 
   - trigger: "anl"
     replace: "analysis"
