@@ -2251,7 +2251,7 @@ matches:
     replace: "structural"
     propagate_case: true
     word: true
-  - trigger: "strtl"
+  - trigger: "kw"
     replace: "structural"
     propagate_case: true
     word: true
