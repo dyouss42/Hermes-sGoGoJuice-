@@ -1451,6 +1451,10 @@ matches:
     replace: "though"
     propagate_case: true
     word: true
+  - trigger: "tho"
+    replace: "though"
+    propagate_case: true
+    word: true
 
   - trigger: "rly"
     replace: "really"
