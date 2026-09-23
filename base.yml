@@ -830,6 +830,10 @@ matches:
     replace: "Maryland"
     propagate_case: true
     word: true
+  - trigger: ";md"
+    replace: "Maryland"
+    propagate_case: true
+    word: true
 
   - trigger: "anl"
     replace: "analysis"
