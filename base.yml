@@ -814,6 +814,10 @@ matches:
     replace: "Wisconsin"
     propagate_case: true
     word: true
+  - trigger: ";wi"
+    replace: "Wisconsin"
+    propagate_case: true
+    word: true
 
   - trigger: "anl"
     replace: "analysis"
