@@ -506,6 +506,10 @@ matches:
     replace: "authority"
     propagate_case: true
     word: true
+  - trigger: "ath"
+    replace: "authority"
+    propagate_case: true
+    word: true
   - trigger: "athn"
     replace: "authorization"
     propagate_case: true
