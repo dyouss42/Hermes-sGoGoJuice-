@@ -178,7 +178,7 @@ matches:
     replace: "additional"
     propagate_case: true
     word: true
-  - trigger: "addl"
+  - trigger: "addy"
     replace: "additional"
     propagate_case: true
     word: true
