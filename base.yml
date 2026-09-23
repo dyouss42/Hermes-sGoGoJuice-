@@ -2170,7 +2170,7 @@ matches:
   - trigger: "U"
     replace: "You"
     word: true
-  - trigger: "rr"
+  - trigger: "ur"
     replace: "ur"
     propagate_case: true
     word: true
