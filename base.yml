@@ -110,7 +110,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "lrns"
-    replace: "learn"
+    replace: "learns"
     propagate_case: true
     word: true
   - trigger: ";cmp"
