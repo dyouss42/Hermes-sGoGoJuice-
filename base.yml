@@ -1715,6 +1715,26 @@ matches:
   - trigger: "rsrch"
     replace: "research"
     propagate_case: true
+    word: true
+  - trigger: "rsrchd"
+  replace: "researched"
+  propagate_case: true
+  word: true
+
+- trigger: "rsrchg"
+  replace: "researching"
+  propagate_case: true
+  word: true
+
+- trigger: "rsrchr"
+  replace: "researcher"
+  propagate_case: true
+  word: true
+
+- trigger: "rsrchrs"
+  replace: "researchers"
+  propagate_case: true
+  word: true
   - trigger: "scty"
     replace: "security"
     propagate_case: true
