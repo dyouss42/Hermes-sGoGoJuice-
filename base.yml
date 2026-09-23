@@ -2259,6 +2259,10 @@ matches:
     replace: "knew"
     propagate_case: true
     word: true
+  - trigger: "kwd"
+    replace: "knew"
+    propagate_case: true
+    word: true
   - trigger: "idty"
     replace: "identity"
     propagate_case: true
