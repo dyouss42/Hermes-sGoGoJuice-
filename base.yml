@@ -1475,6 +1475,10 @@ matches:
     replace: "critiquing"
     propagate_case: true
     word: true
+  - trigger: "crtqg"
+    replace: "critiquing"
+    propagate_case: true
+    word: true
 
   - trigger: "rly"
     replace: "really"
