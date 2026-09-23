@@ -1467,6 +1467,10 @@ matches:
     replace: "critical"
     propagate_case: true
     word: true
+  - trigger: "crtl"
+    replace: "critical"
+    propagate_case: true
+    word: true
 
   - trigger: "rly"
     replace: "really"
