@@ -698,6 +698,10 @@ matches:
     replace: "mental health"
     propagate_case: true
     word: true
+  - trigger: "mh"
+    replace: "mental health"
+    propagate_case: true
+    word: true
 
   - trigger: "chal"
     replace: "challenge"
