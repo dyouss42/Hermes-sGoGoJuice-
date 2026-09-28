@@ -1458,7 +1458,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "chgd"
-    replace: "change"
+    replace: "changed"
     propagate_case: true
     word: true
   - trigger: "xp"
