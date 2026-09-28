@@ -958,7 +958,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "bru"
-    replace: "military"
+    replace: "bureau"
     propagate_case: true
     word: true
   - trigger: "mtry"
