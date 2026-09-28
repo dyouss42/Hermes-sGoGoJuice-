@@ -2302,7 +2302,7 @@ matches:
     replace: "yourself"
     propagate_case: true
     word: true
-  - trigger: "strt"
+  - trigger: "istrt"
     replace: "structure"
     propagate_case: true
     word: true
