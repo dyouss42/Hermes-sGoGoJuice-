@@ -1823,6 +1823,10 @@ matches:
     replace: "technique"
     propagate_case: true
     word: true
+  - trigger: "teq"
+    replace: "technique"
+    propagate_case: true
+    word: true
   - trigger: "mem"
     replace: "memory"
     propagate_case: true
