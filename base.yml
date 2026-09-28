@@ -690,6 +690,10 @@ matches:
     replace: "sexually"
     propagate_case: true
     word: true
+  - trigger: "sxly"
+    replace: "sexually"
+    propagate_case: true
+    word: true
 
   - trigger: "chal"
     replace: "challenge"
