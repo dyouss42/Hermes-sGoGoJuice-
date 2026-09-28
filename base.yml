@@ -694,6 +694,10 @@ matches:
     replace: "sexuality"
     propagate_case: true
     word: true
+  - trigger: "sxlty"
+    replace: "sexuality"
+    propagate_case: true
+    word: true
 
   - trigger: "chal"
     replace: "challenge"
