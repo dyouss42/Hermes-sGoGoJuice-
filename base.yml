@@ -1820,7 +1820,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "teq"
-    replace: "technologies"
+    replace: "technique"
     propagate_case: true
     word: true
   - trigger: "mem"
