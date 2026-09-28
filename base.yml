@@ -958,7 +958,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "mtry"
-    replace: "copying"
+    replace: "military"
     propagate_case: true
     word: true
   - trigger: "cm"
