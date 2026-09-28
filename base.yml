@@ -695,7 +695,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: ";mh"
-    replace: ""
+    replace: "mental health"
     propagate_case: true
     word: true
 
