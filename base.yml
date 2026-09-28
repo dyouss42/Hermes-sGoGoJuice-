@@ -1824,7 +1824,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "teqs"
-    replace: "technique"
+    replace: "techniques"
     propagate_case: true
     word: true
   - trigger: "mem"
