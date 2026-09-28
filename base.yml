@@ -962,7 +962,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "mtrys"
-    replace: "military"
+    replace: "militaries"
     propagate_case: true
     word: true
   - trigger: "cm"
