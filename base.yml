@@ -1453,6 +1453,10 @@ matches:
     replace: "change"
     propagate_case: true
     word: true
+  - trigger: "chg"
+    replace: "change"
+    propagate_case: true
+    word: true
   - trigger: "xp"
     replace: "experience"
     propagate_case: true
