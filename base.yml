@@ -1462,7 +1462,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "chgg"
-    replace: "change"
+    replace: "changing"
     propagate_case: true
     word: true
   - trigger: "xp"
