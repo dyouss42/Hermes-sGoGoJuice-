@@ -957,7 +957,7 @@ matches:
     replace: "copying"
     propagate_case: true
     word: true
-  - trigger: ";cpg"
+  - trigger: "mtry"
     replace: "copying"
     propagate_case: true
     word: true
