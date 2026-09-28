@@ -1457,7 +1457,7 @@ matches:
     replace: "changes"
     propagate_case: true
     word: true
-  - trigger: "chg"
+  - trigger: "chgd"
     replace: "change"
     propagate_case: true
     word: true
