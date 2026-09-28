@@ -682,7 +682,7 @@ matches:
     replace: "sex"
     propagate_case: true
     word: true
-  - trigger: "sx"
+  - trigger: "sx;"
     replace: "sex"
     propagate_case: true
     word: true
