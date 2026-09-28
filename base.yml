@@ -699,7 +699,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "mi"
-    replace: "mental health"
+    replace: "mental illness"
     propagate_case: true
     word: true
 
