@@ -2438,7 +2438,7 @@ matches:
     replace: "they"
     propagate_case: true
     word: true
-  - trigger: "tehy"
+  - trigger: "htehy"
     replace: "they"
     propagate_case: true
     word: true
