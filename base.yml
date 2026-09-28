@@ -1449,7 +1449,7 @@ matches:
     replace: "mechanisms"
     propagate_case: true
     word: true
-  - trigger: "mechs"
+  - trigger: "chg"
     replace: "mechanisms"
     propagate_case: true
     word: true
