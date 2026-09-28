@@ -674,7 +674,7 @@ matches:
     replace: "precedent"
     propagate_case: true
     word: true
-  - trigger: "sex"
+  - trigger: "sx"
     replace: "sex"
     propagate_case: true
     word: true
