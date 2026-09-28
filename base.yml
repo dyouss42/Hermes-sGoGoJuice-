@@ -2446,6 +2446,10 @@ matches:
     replace: "then"
     propagate_case: true
     word: true
+  - trigger: "hten"
+    replace: "then"
+    propagate_case: true
+    word: true
   - trigger: "teh"
     replace: "the"
     propagate_case: true
