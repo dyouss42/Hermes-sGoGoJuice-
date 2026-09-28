@@ -1819,7 +1819,7 @@ matches:
     replace: "technologies"
     propagate_case: true
     word: true
-  - trigger: ";techs"
+  - trigger: "teq"
     replace: "technologies"
     propagate_case: true
     word: true
