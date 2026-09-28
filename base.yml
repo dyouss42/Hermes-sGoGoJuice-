@@ -2303,7 +2303,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "istrt"
-    replace: "structure"
+    replace: "infrastructure"
     propagate_case: true
     word: true
   - trigger: "strt"
