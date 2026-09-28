@@ -1449,7 +1449,10 @@ matches:
     replace: "mechanisms"
     propagate_case: true
     word: true
-  
+  - trigger: "mechs"
+    replace: "mechanisms"
+    propagate_case: true
+    word: true
   - trigger: "xp"
     replace: "experience"
     propagate_case: true
