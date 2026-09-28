@@ -1823,7 +1823,7 @@ matches:
     replace: "technique"
     propagate_case: true
     word: true
-  - trigger: "teq"
+  - trigger: "teqs"
     replace: "technique"
     propagate_case: true
     word: true
