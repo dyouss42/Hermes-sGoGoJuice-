@@ -1450,7 +1450,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "chg"
-    replace: "mechanisms"
+    replace: "change"
     propagate_case: true
     word: true
   - trigger: "xp"
