@@ -1819,6 +1819,7 @@ matches:
     replace: "technologies"
     propagate_case: true
     word: true
+  
   - trigger: "mem"
     replace: "memory"
     propagate_case: true
