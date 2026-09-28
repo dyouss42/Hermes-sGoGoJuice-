@@ -961,7 +961,7 @@ matches:
     replace: "military"
     propagate_case: true
     word: true
-  - trigger: "mtry"
+  - trigger: "mtrys"
     replace: "military"
     propagate_case: true
     word: true
