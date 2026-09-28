@@ -965,7 +965,7 @@ matches:
     replace: "bureaucracy"
     propagate_case: true
     word: true
-  - trigger: "mtry"
+  - trigger: "mlry"
     replace: "military"
     propagate_case: true
     word: true
