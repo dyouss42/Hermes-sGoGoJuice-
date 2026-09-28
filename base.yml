@@ -121,8 +121,8 @@ matches:
     replace: "learner"
     propagate_case: true
     word: true
-  - trigger: "lrnr"
-    replace: "learner"
+  - trigger: "lrnrs"
+    replace: "learners"
     propagate_case: true
     word: true
   - trigger: ";cmp"
