@@ -962,7 +962,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "bruy"
-    replace: "bureau"
+    replace: "bureaucracy"
     propagate_case: true
     word: true
   - trigger: "mtry"
