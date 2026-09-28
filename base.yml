@@ -674,6 +674,10 @@ matches:
     replace: "precedent"
     propagate_case: true
     word: true
+  - trigger: "prec"
+    replace: "precedent"
+    propagate_case: true
+    word: true
 
   - trigger: "chal"
     replace: "challenge"
