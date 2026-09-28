@@ -2442,7 +2442,7 @@ matches:
     replace: "they"
     propagate_case: true
     word: true
-  - trigger: "htey"
+  - trigger: "hten"
     replace: "they"
     propagate_case: true
     word: true
