@@ -691,7 +691,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "sxlty"
-    replace: "sexually"
+    replace: "sexuallity"
     propagate_case: true
     word: true
 
