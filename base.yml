@@ -2443,7 +2443,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "hten"
-    replace: "they"
+    replace: "then"
     propagate_case: true
     word: true
   - trigger: "teh"
