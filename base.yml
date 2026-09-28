@@ -690,7 +690,7 @@ matches:
     replace: "sexually"
     propagate_case: true
     word: true
-  - trigger: "sxly"
+  - trigger: "sxlty"
     replace: "sexually"
     propagate_case: true
     word: true
