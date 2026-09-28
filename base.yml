@@ -117,6 +117,10 @@ matches:
     replace: "learned"
     propagate_case: true
     word: true
+  - trigger: "lrnd"
+    replace: "learned"
+    propagate_case: true
+    word: true
   - trigger: ";cmp"
     replace: "compare"
     word: true
