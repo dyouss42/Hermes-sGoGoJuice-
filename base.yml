@@ -560,7 +560,7 @@ matches:
     propagate_case: true
     word: true
   - trigger: "proby"
-    replace: "probablity"
+    replace: "probability"
     propagate_case: true
     word: true
   - trigger: "cau"
