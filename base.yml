@@ -1846,7 +1846,7 @@ matches:
   - trigger: "mem"
     replace: "memory"
     propagate_case: true
-    word: true 
+    word: 
   - trigger: "mems"
     replace: "memories"
     propagate_case: true
