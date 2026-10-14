@@ -641,7 +641,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "fed"
+  - trigger: "fedl"
     replace: "federal"
     propagate_case: true
     word: true
