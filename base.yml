@@ -678,10 +678,6 @@ matches:
     replace: "sex"
     propagate_case: true
     word: true
-  - trigger: "sx"
-    replace: "sex"
-    propagate_case: true
-    word: true
   - trigger: "sxl"
     replace: "sexual"
     propagate_case: true
