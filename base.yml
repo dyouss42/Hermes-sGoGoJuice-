@@ -54,7 +54,7 @@ matches:
     replace: "emotionally"
     word: true
     propagate_case: true
-  - trigger: "emn"
+  - trigger: "emnl"
     replace: "emotion"
     word: true
     propagate_case: true
