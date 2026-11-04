@@ -51,7 +51,7 @@ matches:
     replace: "emotions"
     word: true
   - trigger: "emny"
-    replace: "emotions"
+    replace: "emotionally"
     word: true
     propagate_case: true
   - trigger: "lk"
