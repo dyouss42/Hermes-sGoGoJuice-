@@ -47,7 +47,7 @@ matches:
     replace: "emotion"
     word: true
     propagate_case: true
-  - trigger: "emn"
+  - trigger: "emns"
     replace: "emotion"
     word: true
     propagate_case: true
