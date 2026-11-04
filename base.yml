@@ -52,7 +52,7 @@ matches:
     word: true
     propagate_case: true
   - trigger: "lkg"
-    replace: "liked"
+    replace: "liking"
     word: true
     propagate_case: true
   - trigger: ";mv"
