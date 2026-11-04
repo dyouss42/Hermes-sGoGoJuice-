@@ -35,7 +35,6 @@ matches:
     replace: "foundations"
     word: true
     propagate_case: true
-    
   - trigger: "fdtnl"
     replace: "foundational"
     word: true
