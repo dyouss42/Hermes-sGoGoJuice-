@@ -51,7 +51,7 @@ matches:
     replace: "liked"
     word: true
     propagate_case: true
-  - trigger: "lkd"
+  - trigger: "lkg"
     replace: "liked"
     word: true
     propagate_case: true
