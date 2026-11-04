@@ -44,7 +44,7 @@ matches:
     word: true
     propagate_case: true
   - trigger: "lk"
-    replace: "foundations"
+    replace: "lik"
     word: true
     propagate_case: true
   - trigger: ";mv"
