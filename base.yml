@@ -43,7 +43,7 @@ matches:
     replace: "foundationally"
     word: true
     propagate_case: true
-  - trigger: "lk"
+  - trigger: "emn"
     replace: "like"
     word: true
     propagate_case: true
