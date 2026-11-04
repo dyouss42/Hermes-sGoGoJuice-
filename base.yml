@@ -47,7 +47,7 @@ matches:
     replace: "like"
     word: true
     propagate_case: true
-   - trigger: "lk"
+  - trigger: "lk"
     replace: "like"
     word: true
     propagate_case: true
